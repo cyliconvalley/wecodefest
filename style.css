@@ -8,6 +8,10 @@ body {
     color: #60779D;
 }
 
+img {
+    max-width: 100%;
+}
+
 #landing {
     background: #5154AA;
     transform: skewY(-4deg);
@@ -48,6 +52,7 @@ body {
 
 .subscribe {
     padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
     width: 300px;
     border-radius: 24px;
     border-color: transparent;
@@ -56,6 +61,7 @@ body {
 
 .submit {
     padding: 5px;
+    margin-bottom: 10px;
     width: 100px;
     background: #FF73B3;
     border-radius: 24px;
@@ -102,6 +108,11 @@ body {
 }
 
 @media (max-width: 768px) {
+
+    .title {
+        font-size: 60px;
+
+    }
 
 }
 
