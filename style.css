@@ -29,6 +29,9 @@ img {
     margin: 50px 0 50px 0;
 }
 
+.logo {
+    white-space: nowrap;
+}
 .title, .subtitle {
     font-family: Lato-Bold, sans-serif;
     text-transform: uppercase;
