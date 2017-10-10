@@ -132,6 +132,7 @@ img {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
