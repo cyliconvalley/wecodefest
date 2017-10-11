@@ -29,9 +29,16 @@ img {
     margin: 50px 0 50px 0;
 }
 
+.logo {
+    white-space: nowrap;
+}
+.title, .subtitle {
+    font-family: Lato-Bold, sans-serif;
+    text-transform: uppercase;
+}
+
 .title {
     font-size: 80px;
-    font-family: Lato-Bold;
     line-height: 96px;
 }
 
@@ -41,12 +48,11 @@ img {
 }
 
 .subtitle {
-    font-size: 24px;
+    font-size: 36px;
     line-height: 40px;
 }
 
 .call-to-subscribe {
-    font-size: 16px;
     line-height: 24px;
 }
 
@@ -122,6 +128,11 @@ img {
 
 .medium-spacing {
     margin: 50px 0 50px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
