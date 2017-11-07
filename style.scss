@@ -120,11 +120,12 @@ img {
 }
 
 .info-subtitle {
-    font-size: 32px;
+    font-size: 2em;
     font-weight: 700;
     line-height: 40px;
 
     color: $violet;
+	font-family: $title-font;
 }
 
 .info-category {
