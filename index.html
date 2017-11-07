@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>wecodefest 2018</title>
-		<meta name="description"
-		      content="wecodefest 2018 - Conferencia tecnológica - Valladolid "/>
-		<!--<link rel="icon" href="img/icon.png" type="image/x-icon">-->
+		<title>WeCodeFest 2018</title>
+		<meta name="description" content="WeCodeFest 2018 - Conferencia tecnológica - Valladolid "/>
+		<link rel="icon" href="img/favicon.png" type="image/x-icon">
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 
 		<!-- Style css -->
-		<link href="style.css" rel="stylesheet"/>
-		<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans" rel="stylesheet">
+		<link href="style.min.css" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Inconsolata:400,700" rel="stylesheet">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,52 +29,32 @@
 
 		<section id="landing">
 			<div class="container">
-				<div class="row">
+				<div class="row withback">
 					<div class="col-sm-8 col-xs-12 col-sm-offset-2">
-						<img src="img/decoration.png" alt="decoration" id="party-decoration">
+
 					</div>
 				</div>
 
 				<div class="row logo">
-					<div class="col-sm-10 col-sm-offset-1 col-xs-12 text-center">
-						<img src="img/swirl-left.png" class="title-swirl" style="width: 150px">
-						<span class="title">WeCode</span>
+					<div class="col-sm-12 col-xs-12 text-center">
+						<img src="img/swirl-left.png" class="title-swirl">
+						<h1 class="title">WeCode</h1>
 						<img src="img/swirl-right.png" class="title-swirl">
 					</div>
 				</div>
 
 				<div class="row low-spacing">
 					<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
-						<span class="">2 y 3 de marzo, Valladolid</span>
+						<span class="">2 y 3 de marzo de 2018, Valladolid</span>
 					</div>
 				</div>
 
 				<div class="row medium-spacing">
 					<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
-						<span class="subtitle">¿Te gusta el código?</span>
+						<span class="subtitle">¿Quieres un evento lleno de código, katas, talleres, charlas de patrones, arquitectura, tecnología...?</span>
 					</div>
-				</div>
-
-				<div class="row medium-spacing">
 					<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
-						<span class="call-to-subscribe">Apúntate a la lista de correo para enterarte de cómo participar</span>
-
-						<form action="//lechazoconf.us15.list-manage.com/subscribe/post?u=5b69efa2634a497bd72d2eae8&amp;id=cd1c3a1a62"
-						      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-						      class="validate"
-						      target="_blank" novalidate>
-
-							<div class="low-spacing">
-								<input type="email" name="EMAIL" class="subscribe" id="mce-EMAIL"
-								       placeholder="Introduce tu email" required>
-								<div style="position: absolute; left: -5000px;" aria-hidden="true">
-									<input type="text" name="b_5b69efa2634a497bd72d2eae8_cd1c3a1a62" tabindex="-1"
-									       value="">
-								</div>
-								<input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe"
-								       class="submit">
-							</div>
-						</form>
+						<a class="cta" href="" title="Comprar entradas - Wecodefest">< Compra tu entrada ></a>
 					</div>
 				</div>
 			</div>
@@ -85,6 +64,30 @@
 			<img src="img/editors.png">
 		</div>
 
+		<div class="row medium-spacing">
+			<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
+				<span class="call-to-subscribe">Apúntate a la lista de correo para enterarte de cómo participar</span>
+
+				<form action="//lechazoconf.us15.list-manage.com/subscribe/post?u=5b69efa2634a497bd72d2eae8&amp;id=cd1c3a1a62"
+					  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+					  class="validate"
+					  target="_blank" novalidate>
+
+					<div class="low-spacing">
+						<input type="email" name="EMAIL" class="subscribe" id="mce-EMAIL"
+							   placeholder="Introduce tu email" required>
+						<div style="position: absolute; left: -5000px;" aria-hidden="true">
+							<input type="text" name="b_5b69efa2634a497bd72d2eae8_cd1c3a1a62" tabindex="-1"
+								   value="">
+						</div>
+						<input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe"
+							   class="submit">
+					</div>
+				</form>
+			</div>
+		</div>
+
+
 		<section id="info">
 
 			<div class="container">
@@ -92,7 +95,7 @@
 					<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
 						<span class="info-subtitle">¿Qué es WeCode?</span>
 						<div class="low-spacing">
-							<p>Desde <a href="https://cyliconvalley.es/">Cylicon Valley</a> proponemos <strong>ensuciarnos
+							<p>Desde <a href="https://cyliconvalley.es/" title="Cylicon Valley">Cylicon Valley</a> proponemos <strong>ensuciarnos
 								las manos:</strong></p>
 							<ul>
 								<li>3+ tracks de talleres y katas</li>
@@ -133,7 +136,7 @@
 		<footer class="footer text-center">
 			<div class="copyright">
 				<p>
-					<a href="https://cyliconvalley.es">CyLicon Valley</a> &bull; WeCodeFest &bull; <a
+					<a href="https://cyliconvalley.es" title="Cylicon Valley">CyLicon Valley</a> &bull; WeCodeFest &bull; <a
 						href="coc.html">Código de Conducta</a>
 				</p>
 			</div>
