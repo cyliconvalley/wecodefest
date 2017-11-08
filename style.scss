@@ -13,7 +13,7 @@ $red: #e87364;
 $blue: #4b8ce8;
 $violet: #5154aa;
 $cream: #fcfcfc;
-$almostwhite: #f2f3f7;
+$almostwhite: #f8f8ff;
 $white: #fff;
 $lightgray: #d8d8d8;
 $ctagreen: #c1d82f;
@@ -53,23 +53,36 @@ a {
 h2 {
     position: relative;
 
-    margin-bottom: 70px;
+    display: inline-block;
     &:before {
         position: absolute;
-        bottom: -12px;
-        left: 44%;
+        right: -24px;
+        bottom: -3px;
 
-        width: 12%;
+        width: 22px;
         height: 1px;
 
         content: '';
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+                animation: blink-animation 1s steps(5, start) infinite;
 
-        border-bottom: 1px solid $lightviolet;
+        border-bottom: 5px solid $lightviolet;
+    }
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
     }
 }
 
 section {
     margin-bottom: 50px;
+	outline: none;
 }
 
 
@@ -89,7 +102,10 @@ header {
     padding: 10px;
 
     color: $white;;
-    //background-color: $lightviolet;
+	&.affix{
+		background-color: $violet;
+		opacity: 1;
+	}
     .logo {
         font-family: $title-font;
         font-weight: 700;
@@ -119,6 +135,10 @@ header {
                     font-size: .8em;
 
                     color: $white;
+					&:focus{
+						color: $white;
+						text-decoration: none;
+					}
                 }
             }
         }
@@ -219,6 +239,9 @@ header {
     line-height: 40px;
 
     color: $violet;
+    @media(max-width: 600px) {
+        font-size: 1.8em;
+    }
 }
 
 .info-category {
@@ -269,6 +292,11 @@ ul {
     box-shadow: none;
     &:hover {
         background-color: darken($ctagreen, 7%);
+    }
+    &:focus {
+        text-decoration: none;
+
+        color: $white;
     }
 }
 .text {
@@ -423,6 +451,9 @@ ul {
         font-size: 1.2em;
         font-weight: 700;
 
+        margin-top: 30px;
+        margin-bottom: 30px;
+
         color: $violet;
     }
     .bio {
@@ -454,6 +485,20 @@ ul {
             }
         }
     }
+}
+#ticketea{
+	background-color: $almostwhite;
+	padding: 30px;
+	padding-top: 0px;
+}
+.ticketea {
+	a{
+		border: none;
+		box-shadow: none;
+		&:hover{
+			background-color: transparent;
+		}
+	}
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
