@@ -50,8 +50,27 @@ a {
         background-color: $pink;
     }
 }
+h2 {
+    position: relative;
 
+    margin-bottom: 70px;
+    &:before {
+        position: absolute;
+        bottom: -12px;
+        left: 44%;
 
+        width: 12%;
+        height: 1px;
+
+        content: '';
+
+        border-bottom: 1px solid $lightviolet;
+    }
+}
+
+section {
+    margin-bottom: 50px;
+}
 
 
 p {
@@ -390,8 +409,51 @@ ul {
 .video-container video.fillWidth {
     //width: 100%;
 }
-.map{
+.venue-icon {
+    margin-top: 50px;
+    img {
+        max-width: 250px;
+    }
+}
 
+.speaker {
+    text-align: center;
+    h3 {
+        font-family: $title-font;
+        font-size: 1.2em;
+        font-weight: 700;
+
+        color: $violet;
+    }
+    .bio {
+        font-size: .8em;
+
+        text-align: left;
+    }
+    .tags {
+        span {
+            font-size: 12px;
+
+            display: inline-block;
+
+            margin-right: 10px;
+            padding: 2px;
+            padding-right: 8px;
+            padding-left: 8px;
+
+            color: #fff;
+            border-radius: 20px;
+            &.charla {
+                background-color: $lightblue;
+            }
+            &.taller {
+                background-color: $green;
+            }
+            &.kata {
+                background-color: $lightviolet;
+            }
+        }
+    }
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {

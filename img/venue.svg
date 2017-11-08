@@ -244,11 +244,11 @@
                 </g>
             </g>
             <g id="Group-2" transform="translate(599.000000, 274.000000)"></g>
-            <rect id="Rectangle-5" fill="#E9ECFC" x="274" y="346" width="43" height="44"></rect>
-            <rect id="Rectangle-5" fill="#E9ECFC" x="333" y="346" width="43" height="44"></rect>
-            <rect id="Rectangle-5" fill="#E9ECFC" x="392" y="346" width="43" height="44"></rect>
-            <rect id="Rectangle-5" fill="#E9ECFC" x="451" y="346" width="43" height="44"></rect>
-            <rect id="Rectangle-5" fill="#E9ECFC" x="510" y="346" width="43" height="44"></rect>
+            <rect id="Rectangle-5" fill="#E9ECFC" x="274" y="346" width="43" height="50"></rect>
+            <rect id="Rectangle-5" fill="#E9ECFC" x="333" y="346" width="43" height="50"></rect>
+            <rect id="Rectangle-5" fill="#E9ECFC" x="392" y="346" width="43" height="50"></rect>
+            <rect id="Rectangle-5" fill="#E9ECFC" x="451" y="346" width="43" height="50"></rect>
+            <rect id="Rectangle-5" fill="#E9ECFC" x="510" y="346" width="43" height="50"></rect>
         </g>
     </g>
 </svg>
