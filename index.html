@@ -23,46 +23,55 @@
 		<!--<![endif]&ndash;&gt;-->
 	</head>
 	<body>
-		<header>
+		<header></header>
+		<div class="homepage-hero-module">
+		    <div class="video-container">
+		        <div class="filter"></div>
+		        <video autoplay loop class="fillWidth">
+		            <source src="vid/video2.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+		            <source src="vid/video2.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+		        </video>
+		        <div class="poster hidden">
+		            <img src="vid/video2.jpg" alt="">
+		        </div>
+				<section id="landing">
+					<div class="container">
+						<div class="row withback">
+							<div class="col-sm-8 col-xs-12 col-sm-offset-2">
 
-		</header>
+							</div>
+						</div>
 
-		<section id="landing">
-			<div class="container">
-				<div class="row withback">
-					<div class="col-sm-8 col-xs-12 col-sm-offset-2">
+						<div class="row logo">
+							<div class="col-sm-12 col-xs-12 text-center">
+								<img src="img/swirl-left.png" class="title-swirl">
+								<h1 class="title">WeCode</h1>
+								<img src="img/swirl-right.png" class="title-swirl">
+							</div>
+						</div>
 
+						<div class="row low-spacing">
+							<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
+								<span class="">2 y 3 de marzo de 2018, Valladolid</span>
+							</div>
+						</div>
+
+						<div class="row medium-spacing">
+							<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
+								<span class="subtitle">¿Quieres un evento lleno de código, katas, talleres, charlas de patrones, arquitectura, tecnología...?</span>
+							</div>
+							<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
+								<a class="cta" href="" title="Comprar entradas - Wecodefest">< Compra tu entrada ></a>
+							</div>
+						</div>
 					</div>
-				</div>
-
-				<div class="row logo">
-					<div class="col-sm-12 col-xs-12 text-center">
-						<img src="img/swirl-left.png" class="title-swirl">
-						<h1 class="title">WeCode</h1>
-						<img src="img/swirl-right.png" class="title-swirl">
-					</div>
-				</div>
-
-				<div class="row low-spacing">
-					<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
-						<span class="">2 y 3 de marzo de 2018, Valladolid</span>
-					</div>
-				</div>
-
-				<div class="row medium-spacing">
-					<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
-						<span class="subtitle">¿Quieres un evento lleno de código, katas, talleres, charlas de patrones, arquitectura, tecnología...?</span>
-					</div>
-					<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
-						<a class="cta" href="" title="Comprar entradas - Wecodefest">< Compra tu entrada ></a>
-					</div>
-				</div>
-			</div>
-		</section>
-
+				</section>
+		    </div>
+		</div>
 		<div class="skewed-background text-center">
 			<img src="img/editors.png">
 		</div>
+
 
 		<section id="info">
 
@@ -160,6 +169,7 @@
 
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="js/custom.js"></script>
 
 	</body>
 </html>
