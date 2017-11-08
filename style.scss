@@ -20,7 +20,7 @@ $ctagreen: #c1d82f;
 
 // STYLES
 * {
-    transition: all .2s linear;
+    transition: all .2s ease-in-out;
 }
 body {
     font-family: $main-font;
@@ -32,11 +32,17 @@ body {
     padding: 0;
 
     color: $text-color;
+
+    text-rendering: optimizeLegibility;
 }
 a {
+    padding: 2px;
+
     text-decoration: none;
 
     color: $pink;
+    border-bottom: 1px solid $pink;
+    box-shadow: inset 0 -3px 0 $pink;
     &:hover {
         text-decoration: none;
 
@@ -44,6 +50,10 @@ a {
         background-color: $pink;
     }
 }
+
+
+
+
 p {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -70,9 +80,9 @@ header {
         margin-left: 20px;
 
         text-align: left;
-		a{
-			color: $white;
-		}
+        a {
+            color: $white;
+        }
     }
     nav {
         text-align: right;
@@ -101,24 +111,29 @@ header {
 
     padding-top: 30px;
     padding-bottom: 200px;
-
-    transform: skewY(-4deg);
-    transform-origin: bottom left;
+    // transform: skewY(-4deg);
+    // transform-origin: bottom left;
 
     color: $white;
-    //background: $violet;
+    &.coc {
+        max-height: 380px;
+        margin-bottom: 30px;
+
+        background: $violet;
+    }
 }
 
 #landing .container {
-    transform: skewY(4deg);
-    transform-origin: bottom left;
+    // transform: skewY(4deg);
+    // transform-origin: bottom left;
 }
 
 #party-decoration {
     margin: 50px 0 50px 0;
 }
 .withback {
-    height: 200px;
+    height: 100px;
+    margin-top: 70px;
 
     background-image: url('img/decoration.png');
     background-repeat: no-repeat;
@@ -159,9 +174,18 @@ header {
     position: relative;
     z-index: 100;
 
-    margin-top: -275px;
-    @media(max-width: 600px) {
-        margin-top: -170px;
+    margin-top: -125px;
+    img {
+        max-width: 850px;
+        @media(max-width: 880px) {
+            max-width: 90%;
+        }
+    }
+    @media(max-width: 880px) {
+        margin-top: -100px;
+    }
+    @media(max-width: 650px) {
+        margin-top: -40px;
     }
 }
 
@@ -220,8 +244,10 @@ ul {
     text-align: center;
 
     color: $white;
+    border-bottom: none;
     border-radius: 100px;
     background-color: $ctagreen;
+    box-shadow: none;
     &:hover {
         background-color: darken($ctagreen, 7%);
     }
@@ -326,8 +352,8 @@ ul {
     height: 100%;
     max-height: 85vh;
 
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
     @media(max-width: 600px) {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
                 clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
@@ -358,9 +384,11 @@ ul {
 
     min-width: 100%;
     min-height: 100%;
+
+    object-fit: cover;
 }
 .video-container video.fillWidth {
-    width: 100%;
+    //width: 100%;
 }
 
 
