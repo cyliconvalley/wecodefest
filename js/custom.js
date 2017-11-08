@@ -6,12 +6,12 @@ $( document ).ready(function() {
     initBannerVideoSize('.video-container .filter');
     initBannerVideoSize('.video-container video');
 
-    $(window).on('resize', function() {
-        scaleVideoContainer();
-        scaleBannerVideoSize('.video-container .poster img');
-        scaleBannerVideoSize('.video-container .filter');
-        scaleBannerVideoSize('.video-container video');
-    });
+    // $(window).on('resize', function() {
+    //     scaleVideoContainer();
+    //     scaleBannerVideoSize('.video-container .poster img');
+    //     scaleBannerVideoSize('.video-container .filter');
+    //     scaleBannerVideoSize('.video-container video');
+    // });
 
 });
 
