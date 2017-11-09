@@ -22,6 +22,14 @@ $ctagreen: #c1d82f;
 * {
     transition: all .2s ease-in-out;
 }
+::-moz-selection {
+    color: $text-color;
+    background: yellow;
+}
+::selection {
+    color: $text-color;
+    background: yellow;
+}
 body {
     font-family: $main-font;
     font-size: 20px;
@@ -81,8 +89,10 @@ h2 {
 }
 
 section {
+	padding-top: 40px;
     margin-bottom: 50px;
-	outline: none;
+
+    outline: none;
 }
 
 
@@ -102,10 +112,10 @@ header {
     padding: 10px;
 
     color: $white;;
-	&.affix{
-		background-color: $violet;
-		opacity: 1;
-	}
+    &.affix {
+        opacity: 1;
+        background-color: $violet;
+    }
     .logo {
         font-family: $title-font;
         font-weight: 700;
@@ -135,10 +145,11 @@ header {
                     font-size: .8em;
 
                     color: $white;
-					&:focus{
-						color: $white;
-						text-decoration: none;
-					}
+                    &:focus {
+                        text-decoration: none;
+
+                        color: $white;
+                    }
                 }
             }
         }
@@ -486,19 +497,19 @@ ul {
         }
     }
 }
-#ticketea{
-	background-color: $almostwhite;
-	padding: 30px;
-	padding-top: 0px;
+#ticketea {
+    padding-bottom: 60px;
+
+    background-color: $almostwhite;
 }
 .ticketea {
-	a{
-		border: none;
-		box-shadow: none;
-		&:hover{
-			background-color: transparent;
-		}
-	}
+    a {
+        border: none;
+        box-shadow: none;
+        &:hover {
+            background-color: transparent;
+        }
+    }
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
