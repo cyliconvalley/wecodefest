@@ -3,7 +3,7 @@
 $main-font: 'Inconsolata', monospace;;
 $title-font: 'Lato', sans-serif;
 // COLORS
-$text-color: #60779d;
+$console-text-color: #60779d;
 $green: #74ddc5;
 $orange: #f4c18d;
 $pink: #ff73b3;
@@ -18,17 +18,21 @@ $white: #fff;
 $lightgray: #d8d8d8;
 $ctagreen: #c1d82f;
 
+// PARTY
+$console-back: #000;
+$console-text: #0f0;
+
 // STYLES
 * {
-    transition: all .2s ease-in-out;
+    transition: all .1s linear;
 }
 ::-moz-selection {
-    color: $text-color;
-    background: yellow;
+    color: $white;
+    background: $green;
 }
 ::selection {
-    color: $text-color;
-    background: yellow;
+    color: $white;
+    background: $green;
 }
 body {
     font-family: $main-font;
@@ -39,7 +43,7 @@ body {
     margin: 0;
     padding: 0;
 
-    color: $text-color;
+    color: $console-text-color;
 
     text-rendering: optimizeLegibility;
 }
@@ -252,7 +256,8 @@ header {
     #menu {
         position: absolute;
         //width: 300px;
-		display: none;
+
+        display: none;
 
         margin: -100px 0 0 -50px;
         padding: 20px;
@@ -282,8 +287,9 @@ header {
  * And let's slide it in from the left
  */
     #menuToggle input:checked ~ ul {
+        display: inline-block;
+
         transform: translate(-57%, 0);
-		display: inline-block;
     }
 }
 #landing {
@@ -461,7 +467,7 @@ ul {
         margin-bottom: 10px;
         padding: 5px 15px 5px 15px;
 
-        color: $text-color;
+        color: $console-text-color;
         border: none;
         border: 2px solid $pink;
         border-radius: 24px;
@@ -658,14 +664,17 @@ ul {
             display: block;
         }
     }
-	.newsletter{
+    .newsletter {
+        text-align: center;
+        input {
+            display: block;
 
-		text-align: center;
-		input{
-			display: block;
-			margin: auto;
-		}
-	}
+            margin: auto;
+        }
+    }
+    .skewed-background {
+        //margin-top: -50px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -677,25 +686,209 @@ ul {
 
         margin: auto;
     }
-	.video-container{
-		max-height: 100%;
-	}
+    .video-container {
+        max-height: 100%;
+    }
 }
 
 @media (max-width: 480px) {
+    #landing {
+        .logo {
+            margin-top: 30px;
+        }
+        .withback {
+            display: none;
+        }
+        .title-swirl {
+            display: none;
+        }
+        .subtitle {
+            font-size: 1em;
+        }
+    }
+}
+.party{
+	box-shadow: none;
+	border-bottom: none;
+}
+.bash {
+    font-family: $main-font !important;
 
-	#landing{
-		.logo{
-			margin-top: 30px;
-		}
-		.withback{
-			display: none
-		}
-		.title-swirl{
-			display: none;
-		}
-		.subtitle{
-			font-size: 1em;
-		}
-	}
+    color: $console-text !important;
+    background: $console-back !important;
+    body {
+        font-family: $main-font !important;
+
+        color: $console-text !important;
+        background: $console-back !important;
+    }
+    * {
+        font-family: $main-font !important;
+
+        transition: all 0s ease-in-out;
+    }
+    img {
+        display: none;
+    }
+    .filter,
+    video,
+    .poster {
+        display: none;
+    }
+    h1,
+    h2,
+    h3,
+    .subtitle {
+        color: $console-text;
+    }
+    h2 {
+        position: relative;
+
+        display: inline-block;
+        &:before {
+            position: absolute;
+            right: -24px;
+            bottom: -3px;
+
+            width: 22px;
+            height: 1px;
+
+            content: '';
+            -webkit-animation: blink-animation 1s steps(5, start) infinite;
+                    animation: blink-animation 1s steps(5, start) infinite;
+
+            border-bottom: 5px solid $console-text;
+        }
+    }
+    a {
+        padding: 2px;
+
+        text-decoration: none;
+
+        color: $console-text;
+        border-bottom: none;
+        box-shadow: none;
+        &:hover {
+            text-decoration: underline;
+
+            color: $console-text;
+            background-color: $console-back;
+        }
+    }
+    header {
+        #menuToggle span,
+        #menuToggle input:checked ~ span {
+            background: $console-text;
+        }
+        #menu {
+            background: $console-back;
+        }
+    }
+    .cta {
+        background-color: $console-back;
+    }
+    .dirty,
+    .info-category {
+        color: $console-text;
+    }
+    .logo a {
+        color: $console-text;
+    }
+    .date {
+        color: $console-text;
+    }
+    #landing {
+        .logo {
+            margin-top: 30px;
+        }
+        .withback {
+            background-image: none;
+        }
+        .title-swirl {
+            display: none;
+        }
+    }
+    header.affix {
+        background-color: $console-back;
+    }
+    #ticketea {
+        background-color: $console-back;
+        img {
+            display: inline-block;
+        }
+    }
+    .newsletter {
+        color: $console-text;
+        background-color: $console-back;
+    }
+    .speaker .tags {
+        color: $console-text;
+        background-color: $console-back;
+        span {
+            color: $console-text;
+            &.charla {
+                background-color: $console-back !important;
+            }
+            &.taller {
+                background-color: $console-back !important;
+            }
+            &.kata {
+                background-color: $console-back !important;
+            }
+        }
+    }
+    .subscribe {
+        font-size: 16px;
+
+        width: 250px;
+        margin-bottom: 10px;
+        padding: 5px 15px 5px 15px;
+
+        color: $console-text;
+        border: none;
+        border: 2px solid $console-text;
+        border-radius: 24px;
+        outline: 0;
+        background-color: $console-back;
+    }
+    ::-webkit-input-placeholder {
+        /* WebKit, Blink, Edge */
+        color: $console-text;
+    }
+
+    :-moz-placeholder {
+        opacity: 1;
+        /* Mozilla Firefox 4 to 18 */
+        color: $console-text;
+    }
+
+    ::-moz-placeholder {
+        opacity: 1;
+        /* Mozilla Firefox 19+ */
+        color: $console-text;
+    }
+
+    :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: $console-text;
+    }
+
+    ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: $console-text;
+    }
+
+    .submit {
+        font-size: .8em;
+
+        width: 120px;
+        margin-bottom: 10px;
+        padding: 5px;
+
+        color: $console-text;
+        border-color: transparent;
+        border-radius: 24px;
+        outline: 0;
+        background: $console-back;
+    }
 }

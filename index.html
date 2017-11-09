@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" id="console">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -80,7 +80,7 @@
 
 						<div class="row low-spacing">
 							<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
-								<span class="">2 y 3 de marzo de 2018, Valladolid</span>
+								<span class="date">2 y 3 de marzo de 2018, Valladolid</span>
 							</div>
 						</div>
 
@@ -298,7 +298,7 @@
 			<div class="copyright">
 				<p>
 					<a href="https://cyliconvalley.es" title="Cylicon Valley">CyLicon Valley</a> &bull; WeCodeFest &bull; <a
-						href="coc.html">Código de Conducta</a>
+						href="coc.html">Código de Conducta</a> &bull; <a href="#console" class="party"><i>🎉</i></a>
 				</p>
 			</div>
 		</footer>
@@ -313,6 +313,13 @@
 						top: 75
 					}
 				})
+				$('.party').on('click',function(){
+					if ($('html').hasClass('bash')){
+						$('html').removeClass('bash');
+					} else {
+						$('html').addClass('bash');
+					}
+				});
 			});
 		</script>
 	</body>
