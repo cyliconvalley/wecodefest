@@ -355,7 +355,9 @@ header {
     line-height: 40px;
 }
 
-
+.map-bash{
+	display: none;
+}
 
 .skewed-background {
     position: relative;
@@ -891,4 +893,7 @@ ul {
         outline: 0;
         background: $console-back;
     }
+	.map-bash{
+		display: inline-block;
+	}
 }
