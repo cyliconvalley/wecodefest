@@ -252,6 +252,7 @@ header {
     #menu {
         position: absolute;
         //width: 300px;
+		display: none;
 
         margin: -100px 0 0 -50px;
         padding: 20px;
@@ -282,6 +283,7 @@ header {
  */
     #menuToggle input:checked ~ ul {
         transform: translate(-57%, 0);
+		display: inline-block;
     }
 }
 #landing {
@@ -656,6 +658,14 @@ ul {
             display: block;
         }
     }
+	.newsletter{
+
+		text-align: center;
+		input{
+			display: block;
+			margin: auto;
+		}
+	}
 }
 
 @media (max-width: 768px) {
@@ -667,7 +677,25 @@ ul {
 
         margin: auto;
     }
+	.video-container{
+		max-height: 100%;
+	}
 }
 
 @media (max-width: 480px) {
+
+	#landing{
+		.logo{
+			margin-top: 30px;
+		}
+		.withback{
+			display: none
+		}
+		.title-swirl{
+			display: none;
+		}
+		.subtitle{
+			font-size: 1em;
+		}
+	}
 }
