@@ -22,6 +22,15 @@
 		<!--<script src="js/library/html5shiv.min.js"></script>-->
 		<!--<script src="js/library/respond.min.js"></script>-->
 		<!--<![endif]&ndash;&gt;-->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109499838-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-109499838-1');
+	</script>
 	</head>
 	<body>
 		<header id="header">
@@ -125,42 +134,79 @@
 
 			<div class="container">
 				<div class="row medium-spacing">
-					<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
+					<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center marginbottom">
 						<div class="medium-spacing">
 							<p class="dirty">Desde <a href="https://cyliconvalley.es/" title="Cylicon Valley">Cylicon Valley</a> proponemos <strong>ensuciarnos
 								las manos:</strong></p>
 						</div>
 					</div>
-					<div class="col-sm-3 col-xs-12 text-center">
+					<div class="col-sm-6 col-xs-12 text-center">
 						<img src="img/workshops.png" class="workshops">
 						<img src="img/workshops-ascii.jpg" class="workshops-ascii">
 						<div class="info-category">Talleres</div>
-						<div class="low-spacing">Nuevas tecnologías, lenguajes, herramientas...</div>
+						<div class="low-spacing content">Nuevas tecnologías, lenguajes, herramientas...</div>
 					</div>
-					<div class="col-sm-3 col-xs-12 text-center">
+					<div class="col-sm-6 col-xs-12 text-center">
 						<img src="img/katas.png" class="katas">
 						<img src="img/katas-ascii.jpg" class="katas-ascii">
 
 						<div class="info-category">Katas</div>
-						<div class="low-spacing">¡Muévete! Ejercítate un dojo, rétanos en una kata...</div>
+						<div class="low-spacing content">
+							<p>
+								Que mejor que practicar y repetir para mejorar tus habilidades como programador usando Katas! Siempre hay una kata adecuada para ti, ya sea resolver un reto o practicar alguno de los fundamentos de la programación.
+							</p>
+							<p>
+								Y en el lenguaje o los lenguajes que quieras. Los pasos son sencillos: elige el problema, el lenguaje y TDD te ayudará a crear ( y refactorizar ) el código para pasar los tests.
+							</p>
+							<p>
+							  El objetivo de una Kata es el aprendizaje, no encontrar la solución correcta.
+							</p>
+
+						</div>
 					</div>
-					<div class="col-sm-3 col-xs-12 text-center">
+					<div class="col-sm-6 col-xs-12 text-center">
 						<img src="img/talks.png" class="talks">
 						<img src="img/talks-ascii.jpg" class="talks-ascii">
 						<div class="info-category">Charlas</div>
 
-						<div class="low-spacing">Revienta nuestras neuronas con patrones, arquitectura...</div>
+						<div class="low-spacing content">Revienta nuestras neuronas con patrones, arquitectura...</div>
 					</div>
-					<div class="col-sm-3 col-xs-12 text-center">
+					<div class="col-sm-6 col-xs-12 text-center">
 						<img src="img/open.png" class="open">
 						<img src="img/open-ascii.jpg" class="open-ascii">
 						<div class="info-category">Open Space</div>
 
-						<div class="low-spacing">Genera conversación y debate con el formato de desconferencia más divertido.</div>
+						<div class="low-spacing content">Genera conversación y debate con el formato de desconferencia más divertido.</div>
 					</div>
 				</div>
 			</div>
 
+		</section>
+		<section class="newsletter">
+			<div class="container">
+			<div class="row">
+				<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
+					<span class="call-to-subscribe">Suscríbete a la lista de correo para estar al día de ponentes y agenda</span>
+
+					<form action="//lechazoconf.us15.list-manage.com/subscribe/post?u=5b69efa2634a497bd72d2eae8&amp;id=cd1c3a1a62"
+						  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+						  class="validate"
+						  target="_blank" novalidate>
+
+						<div class="low-spacing">
+							<input type="email" name="EMAIL" class="subscribe" id="mce-EMAIL"
+								   placeholder="Introduce tu email" required>
+							<div style="position: absolute; left: -5000px;" aria-hidden="true">
+								<input type="text" name="b_5b69efa2634a497bd72d2eae8_cd1c3a1a62" tabindex="-1"
+									   value="">
+							</div>
+							<input type="submit" value="Suscribirme" name="subscribe" id="mc-embedded-subscribe"
+								   class="submit">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
 		</section>
 		<section id="where">
 			<div class="container">
@@ -232,7 +278,8 @@
 				<div class="row">
 					<div class="col-sm-4 col-xs-12 speaker">
 						<div class="medium-spacing">
-							<img src="img/speakers/guillermo.png" class="avatar" alt="">
+							<img src="img/speakers/guillermo.png" class="avatar" alt="ggalmazor">
+							<img src="img/speakers/guillermo-ascii.jpg" class="avatar-ascii" alt="ggalmazor">
 							<h3>Guillermo Gutiérrez Almazor</h3>
 							<p class="twitter">
 								<a href="https://twitter.com/@ggalmazor" target="_blank" title="@ggalmazor">@ggalmazor</a>
@@ -247,7 +294,8 @@
 					</div>
 					<div class="col-sm-4 col-xs-12 speaker">
 						<div class="medium-spacing">
-							<img src="img/speakers/laura.png" class="avatar" alt="">
+							<img src="img/speakers/laura.png" class="avatar" alt="laura_morillo">
+							<img src="img/speakers/laura-ascii.jpg" class="avatar-ascii" alt="laura_morillo">
 							<h3>Laura Morillo-Velarde Rodríguez</h3>
 							<p class="twitter">
 								<a href="https://twitter.com/@laura_morillo" target="_blank" title="@laura_morillo">@laura_morillo</a>
@@ -262,7 +310,8 @@
 					</div>
 					<div class="col-sm-4 col-xs-12 speaker">
 						<div class="medium-spacing">
-							<img src="img/speakers/eferro.png" class="avatar" alt="">
+							<img src="img/speakers/eferro.png" class="avatar" alt="eferro">
+							<img src="img/speakers/eferro-ascii.jpg" class="avatar-ascii" alt="eferro">
 							<h3>Eduardo Ferro</h3>
 							<p class="twitter">
 								<a href="https://twitter.com/@eferro" target="_blank" title="@eferro">@eferro</a>
@@ -285,14 +334,16 @@
 						<h2 class="info-subtitle">Patrocinadores y colaboradores</h2>
 						<div class="medium-spacing">
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								WeCode no sería posible sin la estimable colaboración y patrocinio de las siguientes empresas:
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="row spo">
-					<h3>Patrocinadores</h3>
-					<div class="col-sm-3 col-xs-6 sponsor">
+					<div class="col-sm-12 col-xs-12">
+						<h3>Patrocinadores</h3>
+					</div>
+					<div class="col-sm-12 col-xs-12 sponsor">
 						<div class="partner-box partner-special">
 							<a href="https://www.ticketea.com/" target="_blank" title="Ticketea">
 								<img src="img/sponsors/ticketea.png" alt="Patrocinador Especial (entradas)" width="250">
@@ -301,7 +352,11 @@
 					</div>
 				</div>
 				<div class="row">
-					<h3>Colaboran</h3>
+					<div class="col-sm-12 col-xs-12">
+						<h3>Colaboran</h3>
+					</div>
+					<div class="col-sm-3 col-xs-6 sponsor">
+					</div>
 					<div class="col-sm-3 col-xs-6 sponsor">
 						<div class="partner-box partner-special">
 							<a href="http://www.uva.es/" target="_blank" title="Universidad de Valladolid">
@@ -316,36 +371,10 @@
 							</a>
 						</div>
 					</div>
+					<div class="col-sm-3 col-xs-6 sponsor">
+					</div>
 				</div>
 			</div>
-		</section>
-
-
-		<section class="newsletter">
-			<div class="container">
-			<div class="row">
-				<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
-					<span class="call-to-subscribe">Apúntate a la lista de correo para enterarte de cómo participar</span>
-
-					<form action="//lechazoconf.us15.list-manage.com/subscribe/post?u=5b69efa2634a497bd72d2eae8&amp;id=cd1c3a1a62"
-						  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-						  class="validate"
-						  target="_blank" novalidate>
-
-						<div class="low-spacing">
-							<input type="email" name="EMAIL" class="subscribe" id="mce-EMAIL"
-								   placeholder="Introduce tu email" required>
-							<div style="position: absolute; left: -5000px;" aria-hidden="true">
-								<input type="text" name="b_5b69efa2634a497bd72d2eae8_cd1c3a1a62" tabindex="-1"
-									   value="">
-							</div>
-							<input type="submit" value="Suscribirme" name="subscribe" id="mc-embedded-subscribe"
-								   class="submit">
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
 		</section>
 
 		<footer class="footer text-center">
