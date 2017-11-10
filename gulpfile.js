@@ -5,7 +5,7 @@ var sass = require('gulp-sass');
 var htmlmin = require('gulp-htmlmin');
 
 gulp.task('sass', function () {
-  return gulp.src('style.scss')
+  return gulp.src('./src/sass/style.scss')
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(gulp.dest('./'));
 });
