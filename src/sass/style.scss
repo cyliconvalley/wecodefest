@@ -534,12 +534,13 @@ ul {
 .homepage-hero-module {
     position: relative;
 
+    min-height: 800px;
+
     border-right: none;
     border-left: none;
-	min-height: 800px;
-	@media(max-width: 600px) {
-		min-height: 600px;
-	}
+    @media(max-width: 600px) {
+        min-height: 600px;
+    }
 }
 .no-video .video-container video,
 .touch .video-container video {
@@ -702,14 +703,14 @@ ul {
     .video-container {
         max-height: 100%;
     }
-	#landing {
-		padding-bottom: 0px;
-	}
+    #landing {
+        padding-bottom: 0;
+    }
 }
 
 @media (max-width: 480px) {
     #landing {
-		padding-bottom: 0px;
+        padding-bottom: 0;
         .logo {
             margin-top: 30px;
         }
