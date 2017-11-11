@@ -108,6 +108,9 @@ p {
 img {
     max-width: 100%;
 }
+.small{
+	font-size: 12px;
+}
 header {
     position: absolute;
     z-index: 1000;
@@ -734,6 +737,7 @@ ul {
     vertical-align: bottom;
 }
 .directions {
+	margin-top: 30px;
     li {
         margin-bottom: 20px;
     }
