@@ -55,7 +55,7 @@ a {
     color: $pink;
     border-bottom: 1px solid $pink;
     box-shadow: inset 0 -3px 0 $pink;
-    &:hover {
+    &:hover, &:focus {
         text-decoration: none;
 
         color: $white;
