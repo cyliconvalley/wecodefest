@@ -55,7 +55,8 @@ a {
     color: $pink;
     border-bottom: 1px solid $pink;
     box-shadow: inset 0 -3px 0 $pink;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         text-decoration: none;
 
         color: $white;
@@ -108,8 +109,8 @@ p {
 img {
     max-width: 100%;
 }
-.small{
-	font-size: 12px;
+.small {
+    font-size: 12px;
 }
 header {
     position: absolute;
@@ -737,7 +738,7 @@ ul {
     vertical-align: bottom;
 }
 .directions {
-	margin-top: 30px;
+    margin-top: 30px;
     li {
         margin-bottom: 20px;
     }
@@ -789,7 +790,15 @@ ul {
     img {
         display: inline-block;
     }
-    a {
+    .patro {
+        padding: 25px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        //border: 4px solid $green;
+
+        background-color: $almostwhite;
+    }
+    .sponsor a {
         border: none;
         box-shadow: none;
         text-shadow: none;
@@ -1043,6 +1052,10 @@ ul {
             display: inline-block;
         }
     }
+    .patro {
+        border-color: $console-text !important;
+        background-color: transparent !important;
+    }
 
     @keyframes flicker {
         0% {
@@ -1208,8 +1221,8 @@ ul {
         background-size: 100% 2px, 3px 100%;
     }
 }
-.coctext{
-	@media(max-width: 600px){
-		font-size: 0.9em;
-	}
+.coctext {
+    @media(max-width: 600px) {
+        font-size: .9em;
+    }
 }
