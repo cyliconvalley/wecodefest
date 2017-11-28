@@ -798,6 +798,9 @@ ul {
 
         background-color: $almostwhite;
     }
+	.sponsor{
+		margin-bottom: 30px;
+	}
     .sponsor a {
         border: none;
         box-shadow: none;
@@ -1225,4 +1228,7 @@ ul {
     @media(max-width: 600px) {
         font-size: .9em;
     }
+}
+.mtop{
+	margin-top: 30px;
 }
