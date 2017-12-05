@@ -813,6 +813,9 @@ ul {
             background-color: transparent;
             box-shadow: none;
         }
+		&:focus{
+			background-color: transparent;
+		}
     }
     h3 {
         font-weight: 700;
