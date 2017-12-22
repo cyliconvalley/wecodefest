@@ -798,12 +798,12 @@ ul {
 
         background-color: $almostwhite;
     }
-	.sponsor{
-		margin-bottom: 30px;
-		h4{
-			margin-bottom: 20px;
-		}
-	}
+    .sponsor {
+        margin-bottom: 30px;
+        h4 {
+            margin-bottom: 20px;
+        }
+    }
     .sponsor a {
         border: none;
         box-shadow: none;
@@ -813,9 +813,9 @@ ul {
             background-color: transparent;
             box-shadow: none;
         }
-		&:focus{
-			background-color: transparent;
-		}
+        &:focus {
+            background-color: transparent;
+        }
     }
     h3 {
         font-weight: 700;
@@ -833,7 +833,83 @@ ul {
 
     text-align: left;
 }
+#contents {
+    padding-bottom: 40px;
 
+    background-color: $almostwhite;
+
+	.row{
+		padding: 10px;
+	}
+    h3 {
+        font-family: $title-font;
+        font-size: 1.2em;
+        font-weight: 700;
+
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+        color: $violet;
+    }
+    h4 {
+        font-weight: 700;
+        font-style: italic;
+		color: $blue;
+		margin-bottom: 10px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid $blue;
+		&.charla {
+			color: $lightblue;
+			border-color: $lightblue;
+		}
+		&.taller {
+			color: $green;
+			border-color: $green;
+		}
+		&.kata {
+			color: $lightviolet;
+			border-color: $lightviolet;
+		}
+    }
+	.cont-item{
+		margin-bottom: 50px;
+	}
+    .cont {
+        font-size: .8em;
+
+        text-align: left;
+		strong{
+			display: block;
+			margin-top: 15px;
+		}
+    }
+    .tags {
+		margin-top: 30px;
+		margin-bottom: 40px;
+        span {
+            font-size: 18px;
+
+            display: block;
+
+            margin-right: 10px;
+            padding: 4px;
+            padding-right: 8px;
+            padding-left: 8px;
+
+            color: #fff;
+            border-radius: 20px;
+            &.charla {
+                background-color: $lightblue;
+            }
+            &.taller {
+                background-color: $green;
+            }
+            &.kata {
+                background-color: $lightviolet;
+            }
+        }
+    }
+}
 
 .bash {
     font-family: $main-font !important;
@@ -1066,6 +1142,89 @@ ul {
         background-color: transparent !important;
     }
 
+	#contents {
+	    padding-bottom: 40px;
+
+	    background-color: transparent !important;
+
+		.row{
+			padding: 10px;
+		}
+	    h3 {
+	        font-family: $title-font;
+	        font-size: 1.2em;
+	        font-weight: 700;
+
+	        margin-top: 30px;
+	        margin-bottom: 20px;
+
+	        color: $console-text;
+	    }
+	    h4 {
+	        font-weight: 700;
+	        font-style: italic;
+			color: $console-text;
+			margin-bottom: 10px;
+			padding-bottom: 20px;
+			border-bottom: 1px solid $console-text;
+			&.charla {
+				color: $console-text;
+				border-color: $console-text;
+			}
+			&.taller {
+				color: $console-text;
+				border-color: $console-text;
+			}
+			&.kata {
+				color: $console-text;
+				border-color: $console-text;
+			}
+	    }
+		.cont-item{
+			margin-bottom: 50px;
+		}
+	    .cont {
+	        font-size: .8em;
+
+	        text-align: left;
+			strong{
+				display: block;
+				margin-top: 15px;
+			}
+	    }
+	    .tags {
+			margin-top: 30px;
+			margin-bottom: 40px;
+	        span {
+	            font-size: 18px;
+
+	            display: block;
+
+	            margin-right: 10px;
+	            padding: 4px;
+	            padding-right: 8px;
+	            padding-left: 8px;
+
+	            color: $console-back;
+	            border-radius: 20px;
+	            &.charla {
+	                background-color: $console-text;
+	            }
+	            &.taller {
+	                background-color: $console-text;
+	            }
+	            &.kata {
+	                background-color: $console-text;
+	            }
+	        }
+	    }
+	}
+	.small{
+		color: $console-text;
+	}
+
+
+
     @keyframes flicker {
         0% {
             opacity: .27861;
@@ -1235,6 +1394,6 @@ ul {
         font-size: .9em;
     }
 }
-.mtop{
-	margin-top: 30px;
+.mtop {
+    margin-top: 30px;
 }
