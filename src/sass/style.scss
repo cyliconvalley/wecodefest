@@ -92,6 +92,12 @@ h2 {
         visibility: hidden;
     }
 }
+.row {
+    @media(max-width: 600px) {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
 .marginbottom {
     margin-bottom: 30px;
 }
@@ -838,9 +844,9 @@ ul {
 
     background-color: $almostwhite;
 
-	.row{
-		padding: 10px;
-	}
+    .row {
+        padding: 10px;
+    }
     h3 {
         font-family: $title-font;
         font-size: 1.2em;
@@ -854,38 +860,41 @@ ul {
     h4 {
         font-weight: 700;
         font-style: italic;
-		color: $blue;
-		margin-bottom: 10px;
-		padding-bottom: 20px;
-		border-bottom: 1px solid $blue;
-		&.charla {
-			color: $lightblue;
-			border-color: $lightblue;
-		}
-		&.taller {
-			color: $green;
-			border-color: $green;
-		}
-		&.kata {
-			color: $lightviolet;
-			border-color: $lightviolet;
-		}
+
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+
+        color: $blue;
+        border-bottom: 1px solid $blue;
+        &.charla {
+            color: $lightblue;
+            border-color: $lightblue;
+        }
+        &.taller {
+            color: $green;
+            border-color: $green;
+        }
+        &.kata {
+            color: $lightviolet;
+            border-color: $lightviolet;
+        }
     }
-	.cont-item{
-		margin-bottom: 50px;
-	}
+    .cont-item {
+        margin-bottom: 50px;
+    }
     .cont {
         font-size: .8em;
 
         text-align: left;
-		strong{
-			display: block;
-			margin-top: 15px;
-		}
+        strong {
+            display: block;
+
+            margin-top: 15px;
+        }
     }
     .tags {
-		margin-top: 30px;
-		margin-bottom: 40px;
+        margin-top: 30px;
+        margin-bottom: 40px;
         span {
             font-size: 18px;
 
@@ -1142,86 +1151,89 @@ ul {
         background-color: transparent !important;
     }
 
-	#contents {
-	    padding-bottom: 40px;
+    #contents {
+        padding-bottom: 40px;
 
-	    background-color: transparent !important;
+        background-color: transparent !important;
 
-		.row{
-			padding: 10px;
-		}
-	    h3 {
-	        font-family: $title-font;
-	        font-size: 1.2em;
-	        font-weight: 700;
+        .row {
+            padding: 10px;
+        }
+        h3 {
+            font-family: $title-font;
+            font-size: 1.2em;
+            font-weight: 700;
 
-	        margin-top: 30px;
-	        margin-bottom: 20px;
+            margin-top: 30px;
+            margin-bottom: 20px;
 
-	        color: $console-text;
-	    }
-	    h4 {
-	        font-weight: 700;
-	        font-style: italic;
-			color: $console-text;
-			margin-bottom: 10px;
-			padding-bottom: 20px;
-			border-bottom: 1px solid $console-text;
-			&.charla {
-				color: $console-text;
-				border-color: $console-text;
-			}
-			&.taller {
-				color: $console-text;
-				border-color: $console-text;
-			}
-			&.kata {
-				color: $console-text;
-				border-color: $console-text;
-			}
-	    }
-		.cont-item{
-			margin-bottom: 50px;
-		}
-	    .cont {
-	        font-size: .8em;
+            color: $console-text;
+        }
+        h4 {
+            font-weight: 700;
+            font-style: italic;
 
-	        text-align: left;
-			strong{
-				display: block;
-				margin-top: 15px;
-			}
-	    }
-	    .tags {
-			margin-top: 30px;
-			margin-bottom: 40px;
-	        span {
-	            font-size: 18px;
+            margin-bottom: 10px;
+            padding-bottom: 20px;
 
-	            display: block;
+            color: $console-text;
+            border-bottom: 1px solid $console-text;
+            &.charla {
+                color: $console-text;
+                border-color: $console-text;
+            }
+            &.taller {
+                color: $console-text;
+                border-color: $console-text;
+            }
+            &.kata {
+                color: $console-text;
+                border-color: $console-text;
+            }
+        }
+        .cont-item {
+            margin-bottom: 50px;
+        }
+        .cont {
+            font-size: .8em;
 
-	            margin-right: 10px;
-	            padding: 4px;
-	            padding-right: 8px;
-	            padding-left: 8px;
+            text-align: left;
+            strong {
+                display: block;
 
-	            color: $console-back;
-	            border-radius: 20px;
-	            &.charla {
-	                background-color: $console-text;
-	            }
-	            &.taller {
-	                background-color: $console-text;
-	            }
-	            &.kata {
-	                background-color: $console-text;
-	            }
-	        }
-	    }
-	}
-	.small{
-		color: $console-text;
-	}
+                margin-top: 15px;
+            }
+        }
+        .tags {
+            margin-top: 30px;
+            margin-bottom: 40px;
+            span {
+                font-size: 18px;
+
+                display: block;
+
+                margin-right: 10px;
+                padding: 4px;
+                padding-right: 8px;
+                padding-left: 8px;
+
+                color: $console-back;
+                border-radius: 20px;
+                &.charla {
+                    background-color: $console-text;
+                }
+                &.taller {
+                    background-color: $console-text;
+                }
+                &.kata {
+                    background-color: $console-text;
+                }
+            }
+        }
+    }
+    .small {
+        color: $console-text;
+    }
 
 
 
