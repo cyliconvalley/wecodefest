@@ -920,6 +920,166 @@ ul {
     }
 }
 
+// TIMETABLE
+
+.wrapper {
+    display: grid;
+
+    color: #444;
+    background-color: #fff;
+
+    grid-template-columns: repeat(4, 25%);
+    &.times{
+		grid-template-columns: 100%;
+	}
+}
+
+.box {
+    font-size: 1em;
+	@media(max-width: 600px) {
+		font-size: 0.8em;
+	}
+
+    margin: 2px;
+    padding: 10px;
+
+    text-align: center;
+
+    border: 2px solid $violet;
+    background-color: #fff;
+	min-height: 55px;
+}
+
+.friday {
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+    .a {
+        grid-column: 1 / 5;
+        grid-row: 1;
+    }
+    .b {
+        grid-column: 1 / 5 ;
+        grid-row: 2;
+    }
+    .c {
+        grid-column: 1 / 5 ;
+        grid-row: 3 ;
+    }
+    .d {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .e {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    .f {
+        grid-column: 2;
+        grid-row: 4 / 6;
+    }
+    .g {
+        grid-column: 3;
+        grid-row: 4 / 6;
+    }
+    .h {
+        grid-column: 4;
+        grid-row: 4 / 6;
+    }
+    .i {
+        grid-column: 1 / 5;
+        grid-row: 6;
+    }
+    .u {
+        grid-column: 1 / 5;
+        grid-row: 7;
+    }
+
+
+    .j {
+        grid-column: 1;
+        grid-row: 8 / 10;
+    }
+    .k {
+        grid-column: 2;
+        grid-row: 8 / 10;
+    }
+    .l {
+        grid-column: 3;
+        grid-row: 8 / 10;
+    }
+    .m {
+        grid-column: 4;
+        grid-row: 8 / 10;
+    }
+    .n {
+        grid-column: 1 / 5;
+        grid-row: 10;
+    }
+    .o {
+        grid-column: 1;
+        grid-row: 11;
+    }
+    .p {
+        grid-column: 1;
+        grid-row: 12;
+    }
+    .q {
+        grid-column: 2;
+        grid-row: 11 / 13;
+    }
+    .r {
+        grid-column: 3;
+        grid-row: 11 / 13;
+    }
+    .s {
+        grid-column: 4;
+        grid-row: 11 / 13;
+    }
+
+    .t {
+        grid-column: 1 / 5;
+        grid-row: 14;
+    }
+	.ti{
+		grid-column: 1;
+		grid-row: auto;
+	}
+	.ti{
+		grid-column: 1;
+		grid-row: auto;
+	}
+}
+.friday.times{
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.common{
+	background-color: $almostwhite;
+	border-color: $almostwhite;
+}
+.open{
+	background-color: $lightviolet;
+	border-color: $lightviolet;
+	color: $white;
+}
+.inv{
+	background-color: $green;
+	border-color: $green;
+	color: $white;
+}
+.time{
+	background-color: $almostwhite;
+	border-color: $almostwhite;
+	font-size: 0.8em;
+}
+
+
+
+
+
+
+
+
+
+
 .bash {
     font-family: $main-font !important;
 
