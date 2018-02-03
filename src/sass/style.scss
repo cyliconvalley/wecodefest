@@ -23,8 +23,8 @@ $console-back: #000;
 $console-text: #0f0;
 
 // GRID
-$min-grid: 80px;
-$max-grid: 160px;
+$min-grid: 100px;
+$max-grid: 200px;
 
 
 
@@ -943,29 +943,41 @@ ul {
 }
 
 .box {
-    font-size: .9em;
+    font-size: .8em;
+
+    display: inline-grid;
 
     height: $min-grid;
-    padding: 10px;
+    padding: 5px;
 
     text-align: center;
 
     background-color: #fff;
     box-shadow: inset 1px 1px 0 #fff;
-    @media(max-width: 1000px) {
-        font-size: .75em;
 
-        height: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    @media(max-width: 1000px) {
+        font-size: .7em;
+
+        height: 150px;
     }
     @media(max-width: 700px) {
         font-size: .6em;
     }
-    p {
+    span {
         font-style: italic;
+
+        display: block;
 
         margin-top: 3px;
         margin-bottom: 2px;
     }
+	p{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
 }
 
 .friday {
@@ -996,7 +1008,7 @@ ul {
         grid-column: 2;
         grid-row: 4 / 6;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
     .g {
@@ -1005,7 +1017,7 @@ ul {
         grid-column: 3;
         grid-row: 4 / 6;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
     .h {
@@ -1014,7 +1026,7 @@ ul {
         grid-column: 4;
         grid-row: 4 / 6;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
     .i {
@@ -1033,7 +1045,7 @@ ul {
         grid-column: 1;
         grid-row: 8 / 10;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
     .k {
@@ -1042,7 +1054,7 @@ ul {
         grid-column: 2;
         grid-row: 8 / 10;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
     .l {
@@ -1051,7 +1063,7 @@ ul {
         grid-column: 3;
         grid-row: 8 / 10;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
     .m {
@@ -1060,7 +1072,7 @@ ul {
         grid-column: 4;
         grid-row: 8 / 10;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
     .n {
@@ -1081,7 +1093,7 @@ ul {
         grid-column: 2;
         grid-row: 11 / 13;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
     .r {
@@ -1090,7 +1102,7 @@ ul {
         grid-column: 3;
         grid-row: 11 / 13;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
     .s {
@@ -1099,7 +1111,7 @@ ul {
         grid-column: 4;
         grid-row: 11 / 13;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
 
@@ -1151,7 +1163,7 @@ ul {
         grid-column: 2;
         grid-row: 3 / 5;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
     .g {
@@ -1160,7 +1172,7 @@ ul {
         grid-column: 3;
         grid-row: 3 / 5;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
     .h {
@@ -1169,7 +1181,7 @@ ul {
         grid-column: 4;
         grid-row: 3 / 5;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
     .i {
@@ -1215,7 +1227,7 @@ ul {
         grid-column: 2;
         grid-row: 8 / 10;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
     .r {
@@ -1224,7 +1236,7 @@ ul {
         grid-column: 3;
         grid-row: 8 / 10;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
     .s {
@@ -1233,7 +1245,7 @@ ul {
         grid-column: 4;
         grid-row: 8 / 10;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
 
@@ -1257,7 +1269,7 @@ ul {
         grid-column: 2;
         grid-row: 11 / 13;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
     .y {
@@ -1266,7 +1278,7 @@ ul {
         grid-column: 3;
         grid-row: 11 / 13;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
     .z {
@@ -1275,11 +1287,11 @@ ul {
         grid-column: 4;
         grid-row: 11 / 13;
         @media(max-width: 1000px) {
-            height: 200px;
+            height: 300px;
         }
     }
 
-	.sacabo {
+    .sacabo {
         grid-column: 1 / 5;
         grid-row: 13;
     }
