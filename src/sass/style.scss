@@ -154,6 +154,7 @@ header {
     }
     nav {
         text-align: right;
+		hyphens: none;
         ul {
             display: inline-block;
 
@@ -1119,6 +1120,10 @@ ul {
         grid-column: 1 / 5;
         grid-row: 14;
     }
+	.tur {
+		grid-column: 1 / 5;
+		grid-row: 15;
+	}
     .ti {
         grid-column: 1;
         grid-row: auto;
@@ -1291,6 +1296,10 @@ ul {
         }
     }
 
+	.tur {
+		grid-column: 1 / 5;
+		grid-row: 14;
+	}
     .sacabo {
         grid-column: 1 / 5;
         grid-row: 13;
@@ -1335,6 +1344,11 @@ ul {
     border-color: $lightviolet;
     background-color: $lightviolet;
 }
+.part {
+    color: $white;
+    border-color: $orange;
+    background-color: $orange;
+}
 .time {
     font-size: .8em;
 
@@ -1360,7 +1374,7 @@ ul {
 .bash {
     font-family: $main-font !important;
 
-    animation: textShadow 1.6s infinite;
+    //animation: textShadow 1.6s infinite;
 
     color: $console-text !important;
     background: $console-back !important;
@@ -1837,6 +1851,21 @@ ul {
         background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, .25) 50%), linear-gradient(90deg, rgba(255, 0, 0, .06), rgba(0, 255, 0, .02), rgba(0, 0, 255, .06));
         background-size: 100% 2px, 3px 100%;
     }
+
+	.wrapper {
+
+	    color: $console-text;
+	    background-color: $console-back;
+	}
+
+	.box {
+		color: $console-text !important;
+	    background-color: $console-back;
+	    box-shadow: inset 1px 1px 0 $console-text;
+	}
+
+
+
 }
 .coctext {
     @media(max-width: 600px) {
