@@ -798,7 +798,18 @@ ul {
     }
 }
 
+#party{
+	background-color: $almostwhite;
+	padding-bottom: 30px;
+	.patro {
+		padding: 25px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		border: 4px solid $green;
 
+		background-color: $white;
+	}
+}
 
 #sponsors {
     text-align: center;
