@@ -1,7 +1,8 @@
 // VARIABLES
 // FONTS
-$main-font: 'Inconsolata', monospace;;
+$main-font: 'Inconsolata', monospace;
 $title-font: 'Lato', sans-serif;
+$code-font: "Courier New", Courier, monospace;
 // COLORS
 $console-text-color: #60779d;
 $green: #74ddc5;
@@ -901,6 +902,10 @@ ul {
             color: $lightviolet;
             border-color: $lightviolet;
         }
+    }
+    h5 {
+        font-weight: 700;
+        font-size: 1em;
     }
     .cont-item {
         margin-bottom: 50px;
@@ -1885,6 +1890,9 @@ ul {
     @media(max-width: 600px) {
         font-size: .9em;
     }
+}
+.code {
+    font-family: $code-font;
 }
 .mtop {
     margin-top: 30px;
