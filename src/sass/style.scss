@@ -2,7 +2,7 @@
 // FONTS
 $main-font: 'Inconsolata', monospace;
 $title-font: 'Lato', sans-serif;
-$code-font: "Courier New", Courier, monospace;
+$code-font: 'Courier New', Courier, monospace;
 // COLORS
 $console-text-color: #60779d;
 $green: #74ddc5;
@@ -121,8 +121,8 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.no-hyp{
-	hyphens: none;
+.no-hyp {
+    hyphens: none;
 }
 img {
     max-width: 100%;
@@ -158,7 +158,7 @@ header {
     }
     nav {
         text-align: right;
-		hyphens: none;
+        hyphens: none;
         ul {
             display: inline-block;
 
@@ -381,6 +381,16 @@ header {
 
 .map-bash {
     display: none;
+}
+.info-title {
+    font-family: $title-font;
+    font-size: 1.4em;
+	border-bottom: 2px solid $green;
+	display: inline-block;
+
+    margin-bottom: 30px;
+
+    color: $green;
 }
 
 .skewed-background {
@@ -799,17 +809,18 @@ ul {
     }
 }
 
-#party{
-	background-color: $almostwhite;
-	padding-bottom: 30px;
-	.patro {
-		padding: 25px;
-		padding-top: 30px;
-		padding-bottom: 30px;
-		border: 4px solid $green;
+#party {
+    padding-bottom: 30px;
 
-		background-color: $white;
-	}
+    background-color: $almostwhite;
+    .patro {
+        padding: 25px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        border: 4px solid $green;
+        background-color: $white;
+    }
 }
 
 #sponsors {
@@ -904,8 +915,8 @@ ul {
         }
     }
     h5 {
-        font-weight: 700;
         font-size: 1em;
+        font-weight: 700;
     }
     .cont-item {
         margin-bottom: 50px;
@@ -994,10 +1005,10 @@ ul {
         margin-top: 3px;
         margin-bottom: 2px;
     }
-	p{
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 
 .friday {
@@ -1139,10 +1150,10 @@ ul {
         grid-column: 1 / 5;
         grid-row: 14;
     }
-	.tur {
-		grid-column: 1 / 5;
-		grid-row: 15;
-	}
+    .tur {
+        grid-column: 1 / 5;
+        grid-row: 15;
+    }
     .ti {
         grid-column: 1;
         grid-row: auto;
@@ -1315,10 +1326,10 @@ ul {
         }
     }
 
-	.tur {
-		grid-column: 1 / 5;
-		grid-row: 14;
-	}
+    .tur {
+        grid-column: 1 / 5;
+        grid-row: 14;
+    }
     .sacabo {
         grid-column: 1 / 5;
         grid-row: 13;
@@ -1392,7 +1403,6 @@ ul {
 
 .bash {
     font-family: $main-font !important;
-
     //animation: textShadow 1.6s infinite;
 
     color: $console-text !important;
@@ -1871,20 +1881,16 @@ ul {
         background-size: 100% 2px, 3px 100%;
     }
 
-	.wrapper {
+    .wrapper {
+        color: $console-text;
+        background-color: $console-back;
+    }
 
-	    color: $console-text;
-	    background-color: $console-back;
-	}
-
-	.box {
-		color: $console-text !important;
-	    background-color: $console-back;
-	    box-shadow: inset 1px 1px 0 $console-text;
-	}
-
-
-
+    .box {
+        color: $console-text !important;
+        background-color: $console-back;
+        box-shadow: inset 1px 1px 0 $console-text;
+    }
 }
 .coctext {
     @media(max-width: 600px) {
