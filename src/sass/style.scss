@@ -378,7 +378,13 @@ header {
     font-weight: 300;
     line-height: 40px;
 }
-
+hr.sep{
+	color: #fff;
+	background-color: #fff;
+	height: 1px;
+	margin: 0px;
+	padding: 0px;
+}
 .map-bash {
     display: none;
 }
