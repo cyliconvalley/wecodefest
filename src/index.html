@@ -25,34 +25,27 @@
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109499838-1"></script>
 	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-	gtag('config', 'UA-109499838-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-109499838-1');
 	</script>
 </head>
 <body>
-	<header id="header">
-		<div class="logo"><a href="https://wecodefest.com/" title="WeCodeFest">WeCode</a></div>
-		<nav>
-			<div id="menuToggle">
-				<input type="checkbox" />
-				<span></span>
-				<span></span>
-				<span></span>
-				<ul id="menu" class="menu-mobile">
-					<li><a href="#info" title="Qué es WeCode">Qué es WeCode</a></li>
-					<li><a href="#where" title="Localización">Localización</a></li>
-					<li><a href="#ticketea" title="Entradas">Entradas</a></li>
-					<li><a href="#who" title="Ponentes">Ponentes</a></li>
-					<li><a href="#contents" title="Charlas, katas y talleres">Agenda</a></li>
-					<li><a href="#timetable" title="Horarios">Horarios</a></li>
-					<li><a href="#sponsors" title="Patrocinadores">Patrocinadores</a></li>
-					<li><a href="coc.html" title="CoC">CoC</a></li>
-				</ul>
-			</div>
-			<ul class="menu-desktop">
+<header id="header">
+	<div class="logo"><a href="https://wecodefest.com/" title="WeCodeFest">WeCode</a></div>
+	<nav>
+		<div id="menuToggle">
+			<input type="checkbox"/>
+			<span></span>
+			<span></span>
+			<span></span>
+			<ul id="menu" class="menu-mobile">
 				<li><a href="#info" title="Qué es WeCode">Qué es WeCode</a></li>
 				<li><a href="#where" title="Localización">Localización</a></li>
 				<li><a href="#ticketea" title="Entradas">Entradas</a></li>
@@ -62,56 +55,73 @@
 				<li><a href="#sponsors" title="Patrocinadores">Patrocinadores</a></li>
 				<li><a href="coc.html" title="CoC">CoC</a></li>
 			</ul>
-		</nav>
-	</header>
-	<div class="homepage-hero-module">
-		<div class="video-container">
-			<div class="filter"></div>
-			<video autoplay loop class="fillWidth">
-				<source src="vid/video3.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-				<source src="vid/video3.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-			</video>
-			<div class="poster hidden">
-				<img src="vid/video3.jpg" alt="Video WeCode">
+		</div>
+		<ul class="menu-desktop">
+			<li><a href="#info" title="Qué es WeCode">Qué es WeCode</a></li>
+			<li><a href="#where" title="Localización">Localización</a></li>
+			<li><a href="#ticketea" title="Entradas">Entradas</a></li>
+			<li><a href="#who" title="Ponentes">Ponentes</a></li>
+			<li><a href="#contents" title="Charlas, katas y talleres">Agenda</a></li>
+			<li><a href="#timetable" title="Horarios">Horarios</a></li>
+			<li><a href="#sponsors" title="Patrocinadores">Patrocinadores</a></li>
+			<li><a href="coc.html" title="CoC">CoC</a></li>
+		</ul>
+	</nav>
+</header>
+<div class="homepage-hero-module">
+	<div class="video-container">
+		<div class="filter"></div>
+		<video autoplay loop class="fillWidth">
+			<source src="vid/video3.mp4" type="video/mp4"/>
+			Your browser does not support the video tag. I suggest you upgrade your browser.
+			<source src="vid/video3.webm" type="video/webm"/>
+			Your browser does not support the video tag. I suggest you upgrade your browser.
+		</video>
+		<div class="poster hidden">
+			<img src="vid/video3.jpg" alt="Video WeCode">
+		</div>
+		<section id="landing">
+			<div class="container">
+				<div class="row withback">
+					<div class="col-sm-8 col-xs-12 col-sm-offset-2">
+
+					</div>
+				</div>
+
+				<div class="row logo">
+					<div class="col-sm-12 col-xs-12 text-center">
+						<img src="img/swirl-left.png" class="title-swirl" alt="Swirl">
+						<h1 class="title">WeCode</h1>
+						<img src="img/swirl-right.png" class="title-swirl" alt="Swirl">
+					</div>
+				</div>
+
+				<div class="row low-spacing">
+					<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
+						<span class="date">2 y 3 de marzo de 2018, Valladolid</span>
+					</div>
+				</div>
+
+				<!-- <div class="row medium-spacing">
+				<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
+				<span class="subtitle no-hyp">¿Quieres un evento lleno de código, katas, talleres, charlas de patrones, arquitectura, tecnología...?</span>
 			</div>
-			<section id="landing">
-				<div class="container">
-					<div class="row withback">
-						<div class="col-sm-8 col-xs-12 col-sm-offset-2">
-
-						</div>
-					</div>
-
-					<div class="row logo">
-						<div class="col-sm-12 col-xs-12 text-center">
-							<img src="img/swirl-left.png" class="title-swirl" alt="Swirl">
-							<h1 class="title">WeCode</h1>
-							<img src="img/swirl-right.png" class="title-swirl" alt="Swirl">
-						</div>
-					</div>
-
-					<div class="row low-spacing">
-						<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
-							<span class="date">2 y 3 de marzo de 2018, Valladolid</span>
-						</div>
-					</div>
-
-					<!-- <div class="row medium-spacing">
+			<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
+			<a class="cta" href="https://docs.google.com/document/d/1flJmN20zogZ08BJPqM-FwH6OspKr6O-Qk6Lycg3cV4I/edit?usp=sharing" target="_blank" title="Patrocina Wecodefest">&lt; Consigue tu entrada &gt;</a>
+			<p class="small">
+			* Consigue tu entrada mediante patrocinio
+		</p>
+	</div>
+</div> -->
+				<div class="row medium-spacing">
 					<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
 						<h1>¡Gracias por venir!</h1>
 						<h3>Nos vemos en el 2019 :)</h3>
+					</div>
 				</div>
-				<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
-				<a class="cta" href="https://docs.google.com/document/d/1flJmN20zogZ08BJPqM-FwH6OspKr6O-Qk6Lycg3cV4I/edit?usp=sharing" target="_blank" title="Patrocina Wecodefest">&lt; Consigue tu entrada &gt;</a>
-				<p class="small">
-				* Consigue tu entrada mediante patrocinio
-			</p>
-		</div>
-	</div> -->
+			</div>
+		</section>
 	</div>
-</div>
-</section>
-</div>
 </div>
 <div class="skewed-background text-center">
 	<img src="img/editors.png" alt="Code Editors">
@@ -124,12 +134,12 @@
 			<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
 				<h2 class="info-subtitle">¿Qué dicen del WeCode?</h2>
 				<div class="text medium-spacing">
-                                        <li><a href="https://nolegaltech.com/es-ES/blog/r/wecode">NoLegalTech</a></li>
-                                        <li><a href="https://medium.com/@mpijierro/as%C3%AD-fue-el-evento-wecodefest-f62154a346eb">Manu Pijierro</a></li>
-                                        <li><a href="https://www.danielprimo.io/blog/wecode-2018-y-la-teoria-de-los-huevos-estrellados">Daniel Primo</a></li>
-                                        <li><a href="https://www.vitalinnova.com/wecodefest-2018/">Vital Innova</a></li>
-                                        <li><a href="https://adelatorrefoss.wordpress.com/2018/03/15/y-algo-se-rompio-en-la-sesion-que-propuse-en-el-wecode-fest/">Antonio de la Torre</a></li>
-                                        <li><a href="https://www.autentia.com/2018/03/15/primera-edicion-wecodefest/">Autentia</a></li>
+					<li><a href="https://nolegaltech.com/es-ES/blog/r/wecode">NoLegalTech</a></li>
+					<li><a href="https://medium.com/@mpijierro/as%C3%AD-fue-el-evento-wecodefest-f62154a346eb">Manu Pijierro</a></li>
+					<li><a href="https://www.danielprimo.io/blog/wecode-2018-y-la-teoria-de-los-huevos-estrellados">Daniel Primo</a></li>
+					<li><a href="https://www.vitalinnova.com/wecodefest-2018/">Vital Innova</a></li>
+					<li><a href="https://adelatorrefoss.wordpress.com/2018/03/15/y-algo-se-rompio-en-la-sesion-que-propuse-en-el-wecode-fest/">Antonio de la Torre</a></li>
+					<li><a href="https://www.autentia.com/2018/03/15/primera-edicion-wecodefest/">Autentia</a></li>
 					<li><a href="https://www.youtube.com/watch?v=C36-KfCgquU">Video resumen de Autentia</a></li>
 				</div>
 			</div>
@@ -331,61 +341,61 @@
 				<div class="medium-spacing">
 					<p class="dirty">Desde <a href="https://cyliconvalley.es/" title="Cylicon Valley">Cylicon Valley</a> proponemos <strong>ensuciarnos
 						las manos:</strong></p>
-					</div>
 				</div>
-				<div class="col-sm-4 col-xs-12 text-center">
-					<img src="img/workshops.png" class="workshops" alt="Workshop">
-					<img src="img/workshops-ascii.jpg" class="workshops-ascii" alt="Workshop">
-					<div class="info-category">Talleres y Katas</div>
-					<div class="low-spacing content">
-						<p>Ven al WeCode con tu portátil, ¡lo vas a necesitar!. El evento está centrado en <strong>talleres donde practicar en vivo</strong>: programación, refactorizaciones, despliegues, maquetación, etc. </p>
-						<p>Con 15 ponentes y Open Space. También con formato <strong>kata</strong> donde practicar y repetir para mejorar tus habilidades mediante TDD, centrado en el aprendizaje, no en la solución. <strong>Tres tracks con slots de dos horas</strong> para tener tiempo tiempo a probar, preguntar y repetir.</p>
-					</div>
+			</div>
+			<div class="col-sm-4 col-xs-12 text-center">
+				<img src="img/workshops.png" class="workshops" alt="Workshop">
+				<img src="img/workshops-ascii.jpg" class="workshops-ascii" alt="Workshop">
+				<div class="info-category">Talleres y Katas</div>
+				<div class="low-spacing content">
+					<p>Ven al WeCode con tu portátil, ¡lo vas a necesitar!. El evento está centrado en <strong>talleres donde practicar en vivo</strong>: programación, refactorizaciones, despliegues, maquetación, etc. </p>
+					<p>Con 15 ponentes y Open Space. También con formato <strong>kata</strong> donde practicar y repetir para mejorar tus habilidades mediante TDD, centrado en el aprendizaje, no en la solución. <strong>Tres tracks con slots de dos horas</strong> para tener tiempo tiempo a probar, preguntar y repetir.</p>
 				</div>
-				<div class="col-sm-4 col-xs-12 text-center">
-					<img src="img/talks.png" class="talks" alt="Talks">
-					<img src="img/talks-ascii.jpg" class="talks-ascii" alt="Talks">
-					<div class="info-category">Charlas</div>
+			</div>
+			<div class="col-sm-4 col-xs-12 text-center">
+				<img src="img/talks.png" class="talks" alt="Talks">
+				<img src="img/talks-ascii.jpg" class="talks-ascii" alt="Talks">
+				<div class="info-category">Charlas</div>
 
-					<div class="low-spacing content">
-						<p>Siempre con un enfoque práctico, habrá <strong>un único track de charlas donde dejar el portátil cargando y escuchar a quien exponga</strong> temas que no encajen en formato aplicado.</p>
-						<p>Intentaremos <strong>agrupar las charlas de una hora</strong> de forma que los temas no coincidan con los talleres en la misma franja, para que puedas asistir a todo lo que te interese.</p>
-					</div>
+				<div class="low-spacing content">
+					<p>Siempre con un enfoque práctico, habrá <strong>un único track de charlas donde dejar el portátil cargando y escuchar a quien exponga</strong> temas que no encajen en formato aplicado.</p>
+					<p>Intentaremos <strong>agrupar las charlas de una hora</strong> de forma que los temas no coincidan con los talleres en la misma franja, para que puedas asistir a todo lo que te interese.</p>
 				</div>
-				<div class="col-sm-4 col-xs-12 text-center">
-					<img src="img/open.png" class="open" alt="Open">
-					<img src="img/open-ascii.jpg" class="open-ascii" alt="Open">
-					<div class="info-category">Open Space</div>
+			</div>
+			<div class="col-sm-4 col-xs-12 text-center">
+				<img src="img/open.png" class="open" alt="Open">
+				<img src="img/open-ascii.jpg" class="open-ascii" alt="Open">
+				<div class="info-category">Open Space</div>
 
-					<div class="low-spacing content">
-						<p>Genera conversación y debate con el formato de <strong>desconferencia</strong> más divertido. Queremos que <strong>los asistentes sean los partícipes principales</strong>, y por ello podrás montarte la conferencia “a tu gusto”. </p>
-						<p>Propón temas para el Open Space a primera hora del viernes y del sábado, y enseña lo que sabes, resuelve tus dudas o plantea retos. Prepararemos una guía para ponentes, contacta si tienes dudas.</p>
-					</div>
+				<div class="low-spacing content">
+					<p>Genera conversación y debate con el formato de <strong>desconferencia</strong> más divertido. Queremos que <strong>los asistentes sean los partícipes principales</strong>, y por ello podrás montarte la conferencia “a tu gusto”. </p>
+					<p>Propón temas para el Open Space a primera hora del viernes y del sábado, y enseña lo que sabes, resuelve tus dudas o plantea retos. Prepararemos una guía para ponentes, contacta si tienes dudas.</p>
 				</div>
 			</div>
 		</div>
+	</div>
 
-	</section>
-	<section class="newsletter">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
-					<span class="call-to-subscribe">Suscríbete a la lista de correo para estar al día de ponentes y agenda</span>
+</section>
+<section class="newsletter">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
+				<span class="call-to-subscribe">Suscríbete a la lista de correo para estar al día de ponentes y agenda</span>
 
-					<form action="//lechazoconf.us15.list-manage.com/subscribe/post?u=5b69efa2634a497bd72d2eae8&amp;id=ad285da00c"
-					method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-					class="validate"
-					target="_blank" novalidate>
+				<form action="//lechazoconf.us15.list-manage.com/subscribe/post?u=5b69efa2634a497bd72d2eae8&amp;id=ad285da00c"
+					  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+					  class="validate"
+					  target="_blank" novalidate>
 
 					<div class="low-spacing">
 						<input type="email" name="EMAIL" class="subscribe" id="mce-EMAIL"
-						placeholder="Introduce tu email" required>
+							   placeholder="Introduce tu email" required>
 						<div style="position: absolute; left: -5000px;" aria-hidden="true">
 							<input type="text" name="b_5b69efa2634a497bd72d2eae8_ad285da00c" tabindex="-1"
-							value="">
+								   value="">
 						</div>
 						<input type="submit" value="Suscribirme" name="subscribe" id="mc-embedded-subscribe"
-						class="submit">
+							   class="submit">
 					</div>
 				</form>
 			</div>
@@ -431,7 +441,7 @@
 					<img src="img/ascii.jpg" class="map-bash" alt="Mapa Ascii">
 					<ul class="directions">
 						<li><i class="material-icons">place</i> Paseo de Belén, 15, 47011, <strong>Valladolid</strong></li>
-						<li><i class="material-icons">map</i> <a href="https://www.google.es/maps/dir/Escuela+de+Ingenier%C3%ADa+Inform%C3%A1tica+de+Valladolid/data=!4m5!4m4!1m0!1m2!1m1!1s0xd47129fbb4a727b:0xaab6e3ec16643ed1?sa=X&ved=0ahUKEwi-t9ze-bHXAhVD1RQKHYnvAvIQ9RcIezAO">Cómo llegar</a> </li>
+						<li><i class="material-icons">map</i> <a href="https://www.google.es/maps/dir/Escuela+de+Ingenier%C3%ADa+Inform%C3%A1tica+de+Valladolid/data=!4m5!4m4!1m0!1m2!1m1!1s0xd47129fbb4a727b:0xaab6e3ec16643ed1?sa=X&ved=0ahUKEwi-t9ze-bHXAhVD1RQKHYnvAvIQ9RcIezAO">Cómo llegar</a></li>
 					</ul>
 				</div>
 			</div>
@@ -1379,9 +1389,9 @@ Si perteneces a un colectivo con baja representación o tienes problemas para ac
 <footer class="footer text-center">
 	<div class="copyright">
 		<p>
-			<a href="https://cyliconvalley.es" title="Cylicon Valley" target="_blank" >CyLicon Valley</a> &bull; <a
-			href="coc.html" title="Código de conducta">CoC</a> &bull; <a
-			href="https://twitter.com/wecodefest" title="twitter" target="_blank">@wecodefest</a> &bull; <a href="#console" class="party"><span>👾</span></a>
+			<a href="https://cyliconvalley.es" title="Cylicon Valley" target="_blank">CyLicon Valley</a> &bull; <a
+				href="coc.html" title="Código de conducta">CoC</a> &bull; <a
+				href="https://twitter.com/wecodefest" title="twitter" target="_blank">@wecodefest</a> &bull; <a href="#console" class="party"><span>👾</span></a>
 		</p>
 		<p class="small">
 			Algunos iconos por <a href="https://thenounproject.com/korawan_m/" target="_blank" rel="nofollow">BomSymbols</a> y <a href="https://thenounproject.com/made.somewhere" target="_blank" rel="nofollow">Made by Made</a> de <em>the Noun Project</em>
@@ -1393,20 +1403,20 @@ Si perteneces a un colectivo con baja representación o tienes problemas para ac
 <script src="js/bootstrap.min.js"></script>
 <script src="js/custom.js"></script>
 <script>
-$(document).ready(function() {
-	$('#header').affix({
-		offset: {
-			top: 75
-		}
-	})
-	$('.party').on('click',function(){
-		if ($('html').hasClass('bash')){
-			$('html').removeClass('bash');
-		} else {
-			$('html').addClass('bash');
-		}
-	});
-});
+    $(document).ready(function () {
+        $('#header').affix({
+            offset: {
+                top: 75
+            }
+        })
+        $('.party').on('click', function () {
+            if ($('html').hasClass('bash')) {
+                $('html').removeClass('bash');
+            } else {
+                $('html').addClass('bash');
+            }
+        });
+    });
 </script>
 </body>
 </html>
