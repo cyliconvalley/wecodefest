@@ -497,6 +497,35 @@ ul {
 .text {
     text-align: left;
 }
+
+.subscribe {
+    font-size: 16px;
+
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 5px 15px 5px 15px;
+
+    color: $console-text-color;
+    border: none;
+    border: 2px solid $pink;
+    border-radius: 24px;
+    outline: 0;
+}
+
+.subscribe-submit {
+    font-size: .8em;
+
+    width: 120px;
+    margin-bottom: 10px;
+    padding: 5px;
+
+    color: $white;
+    border-color: transparent;
+    border-radius: 24px;
+    outline: 0;
+    background: $pink;
+}
+
 .newsletter {
     margin-bottom: 0;
     padding-top: 30px;
@@ -508,19 +537,7 @@ ul {
         line-height: 26px;
     }
 
-    .subscribe {
-        font-size: 16px;
 
-        width: 250px;
-        margin-bottom: 10px;
-        padding: 5px 15px 5px 15px;
-
-        color: $console-text-color;
-        border: none;
-        border: 2px solid $pink;
-        border-radius: 24px;
-        outline: 0;
-    }
     ::-webkit-input-placeholder {
         /* WebKit, Blink, Edge */
         color: $lightgray;
@@ -548,19 +565,6 @@ ul {
         color: $lightgray;
     }
 
-    .submit {
-        font-size: .8em;
-
-        width: 120px;
-        margin-bottom: 10px;
-        padding: 5px;
-
-        color: $white;
-        border-color: transparent;
-        border-radius: 24px;
-        outline: 0;
-        background: $pink;
-    }
 }
 .dirty {
     font-family: $title-font;
@@ -1577,7 +1581,7 @@ ul {
         color: $console-text;
     }
 
-    .submit {
+    .subscribe-submit {
         font-size: .8em;
 
         width: 120px;
