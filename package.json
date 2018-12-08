@@ -8,7 +8,7 @@
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-htmlmin": "^4.0.0",
-    "gulp-sass": "^4.0.1"
+    "gulp-sass": "^4.0.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
