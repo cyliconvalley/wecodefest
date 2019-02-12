@@ -1428,6 +1428,7 @@ ul {
 }
 .time {
     font-size: .8em;
+    white-space: nowrap;
 
     border-color: $almostwhite;
     background-color: $almostwhite;
@@ -1965,7 +1966,6 @@ ul {
 }
 
 .friday-2019 {
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 2fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
     .a {
         grid-column: 1 / 5;
         grid-row: 1;
@@ -2035,7 +2035,6 @@ ul {
 }
 
 .saturday-2019 {
-    //grid-template-rows: 1fr 1fr 1fr 1fr 2fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
     .a {
         grid-column: 1 / 5;
         grid-row: 1;
