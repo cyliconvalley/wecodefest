@@ -1917,3 +1917,248 @@ ul {
 #timetable .box a {
   color: $white;
 }
+
+.friday-2019 {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 2fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+    .a {
+        grid-column: 1 / 5;
+        grid-row: 1;
+    }
+    .b {
+        grid-column: 1 / 5 ;
+        grid-row: 2;
+    }
+    .c {
+        grid-column: 1 / 5 ;
+        grid-row: 3 ;
+    }
+    .d {
+        grid-column: 1 / 5;
+        grid-row: 4;
+    }
+    .e {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    .f {
+        grid-column: 1;
+        grid-row: 6;
+    }
+    .g {
+        grid-column: 2;
+        grid-row: 5 / 6;
+    }
+    .h {
+        grid-column: 3;
+        grid-row: 5 / 6;
+    }
+    .i {
+        grid-column: 4;
+        grid-row: 5;
+    }
+    .j {
+        grid-column: 4;
+        grid-row: 6;
+    }
+    .k {
+        grid-column: 1 / 5;
+        grid-row: 7;
+    }
+    .l {
+        grid-column: 1 / 5;
+        grid-row: 8;
+    }
+    .m { grid-column: 1; grid-row: 9; }
+    .n { grid-column: 1; grid-row: 10; }
+    .o {
+        grid-column: 2; grid-row: 9 / 10;
+    }
+    .p { grid-column: 3; grid-row: 9 / 10; }
+    .q { grid-column: 4; grid-row: 9; }
+    .r { grid-column: 4; grid-row: 10; }
+    .s { grid-column: 1 / 5; grid-row: 11; }
+    .t { grid-column: 1; grid-row: 12; }
+    .u { grid-column: 1; grid-row: 13; }
+    .v { grid-column: 2; grid-row: 12 / 13; }
+    .w { grid-column: 3; grid-row: 12; }
+    .x { grid-column: 3; grid-row: 13; }
+    .y { grid-column: 4; grid-row: 12; }
+    .z { grid-column: 4; grid-row: 13; }
+    .aa { grid-column: 1 / 5; grid-row: 14; }
+    .ab { grid-column: 1 / 5; grid-row: 15; }
+}
+
+.saturday-2019 {
+    grid-template-rows: 1fr 1fr 1fr 1fr 2fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+}
+.saturday-2019 {
+    .a {
+        grid-column: 1 / 5;
+        grid-row: 1;
+    }
+    .b {
+        grid-column: 1 / 5 ;
+        grid-row: 2;
+    }
+    .d {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .e {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .uuu {
+        grid-column: 1;
+        grid-row: 9;
+    }
+    .f {
+        height: $max-grid;
+
+        grid-column: 2;
+        grid-row: 3 / 5;
+        @media(max-width: 1000px) {
+            height: 300px;
+        }
+    }
+    .g {
+        grid-column: 3;
+        grid-row: 3;
+    }
+    .g {
+        grid-column: 3;
+        grid-row: 4;
+    }
+    .h {
+      grid-column: 4;
+      grid-row: 3;
+    }
+    .hh {
+      grid-column: 4;
+      grid-row: 4;
+    }
+    .i {
+        grid-column: 1 / 5;
+        grid-row: 5;
+    }
+
+    .j {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    .k {
+        grid-column: 2;
+        grid-row: 5;
+    }
+    .l {
+        grid-column: 3;
+        grid-row: 5;
+    }
+    .m {
+        grid-column: 4;
+        grid-row: 5;
+    }
+    .n {
+        grid-column: 1 / 5;
+        grid-row: 7;
+    }
+    .u {
+        grid-column: 1 / 5;
+        grid-row: 6;
+    }
+    .o {
+        grid-column: 1;
+        grid-row: 8;
+    }
+    .p {
+        grid-column: 1;
+        grid-row: 9;
+    }
+    .q {
+        height: $max-grid;
+
+        grid-column: 2;
+        grid-row: 8 / 10;
+        @media(max-width: 1000px) {
+            height: 300px;
+        }
+    }
+    .r {
+        height: $max-grid;
+
+        grid-column: 3;
+        grid-row: 8 / 10;
+        @media(max-width: 1000px) {
+            height: 300px;
+        }
+    }
+    .s {
+        grid-column: 4;
+        grid-row: 8;
+    }
+    .ss {
+        grid-column: 4;
+        grid-row: 9;
+    }
+
+    .t {
+        grid-column: 1 / 5;
+        grid-row: 10;
+    }
+
+
+    .v {
+        grid-column: 1;
+        grid-row: 11;
+    }
+    .w {
+        grid-column: 1;
+        grid-row: 12;
+    }
+    .x {
+        height: $max-grid;
+
+        grid-column: 2;
+        grid-row: 11 / 13;
+        @media(max-width: 1000px) {
+            height: 300px;
+        }
+    }
+    .y {
+        height: $max-grid;
+
+        grid-column: 3;
+        grid-row: 11 / 13;
+        @media(max-width: 1000px) {
+            height: 300px;
+        }
+    }
+    .z {
+        height: $max-grid;
+
+        grid-column: 4;
+        grid-row: 11 / 13;
+        @media(max-width: 1000px) {
+            height: 300px;
+        }
+    }
+
+    .tur {
+        grid-column: 1 / 5;
+        grid-row: 14;
+    }
+    .sacabo {
+        grid-column: 1 / 5;
+        grid-row: 13;
+    }
+    .ti {
+        grid-column: 1;
+        grid-row: auto;
+        @media(max-width: 1000px) {
+            font-size: .7em;
+        }
+        @media(max-width: 700px) {
+            font-size: .6em;
+        }
+    }
+}
