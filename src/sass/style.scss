@@ -1022,6 +1022,43 @@ ul {
     }
 }
 
+.timetable-box {
+    font-size: .8em;
+
+    display: inline-grid;
+
+    padding: 5px;
+
+    text-align: center;
+
+    background-color: #fff;
+    box-shadow: inset 1px 1px 0 #fff;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    @media(max-width: 1000px) {
+        font-size: .7em;
+
+        height: 150px;
+    }
+    @media(max-width: 700px) {
+        font-size: .6em;
+    }
+    span {
+        font-style: italic;
+
+        display: block;
+
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
 .friday {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
     .a {
@@ -1902,6 +1939,12 @@ ul {
         background-color: $console-back;
         box-shadow: inset 1px 1px 0 $console-text;
     }
+
+    .timetable-box {
+        color: $console-text !important;
+        background-color: $console-back;
+        box-shadow: inset 1px 1px 0 $console-text;
+    }
 }
 .coctext {
     @media(max-width: 600px) {
@@ -1915,6 +1958,10 @@ ul {
     margin-top: 30px;
 }
 #timetable .box a {
+  color: $white;
+}
+
+#timetable .timetable-box a {
   color: $white;
 }
 
@@ -1946,11 +1993,11 @@ ul {
     }
     .g {
         grid-column: 2;
-        grid-row: 5 / 6;
+        grid-row: 5 / 7;
     }
     .h {
         grid-column: 3;
-        grid-row: 5 / 6;
+        grid-row: 5 / 7;
     }
     .i {
         grid-column: 4;
@@ -1971,15 +2018,15 @@ ul {
     .m { grid-column: 1; grid-row: 9; }
     .n { grid-column: 1; grid-row: 10; }
     .o {
-        grid-column: 2; grid-row: 9 / 10;
+        grid-column: 2; grid-row: 9 / 11;
     }
-    .p { grid-column: 3; grid-row: 9 / 10; }
+    .p { grid-column: 3; grid-row: 9 / 11; }
     .q { grid-column: 4; grid-row: 9; }
     .r { grid-column: 4; grid-row: 10; }
     .s { grid-column: 1 / 5; grid-row: 11; }
     .t { grid-column: 1; grid-row: 12; }
     .u { grid-column: 1; grid-row: 13; }
-    .v { grid-column: 2; grid-row: 12 / 13; }
+    .v { grid-column: 2; grid-row: 12 / 14; }
     .w { grid-column: 3; grid-row: 12; }
     .x { grid-column: 3; grid-row: 13; }
     .y { grid-column: 4; grid-row: 12; }
