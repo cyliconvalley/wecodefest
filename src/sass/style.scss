@@ -2032,6 +2032,17 @@ ul {
     .z { grid-column: 4; grid-row: 13; }
     .aa { grid-column: 1 / 5; grid-row: 14; }
     .ab { grid-column: 1 / 5; grid-row: 15; }
+
+    .ti {
+        grid-column: 1;
+        grid-row: auto;
+        @media(max-width: 1000px) {
+            font-size: .7em;
+        }
+        @media(max-width: 700px) {
+            font-size: .6em;
+        }
+    }
 }
 
 .saturday-2019 {
