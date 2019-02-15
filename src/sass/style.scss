@@ -2194,3 +2194,13 @@ ul {
         }
     }
 }
+
+.friday-2019, .saturday-2019 {
+  .timetable-box {
+    a {
+      font-family: $title-font;
+      font-weight: bold;
+      font-size: 90%;
+    }
+  }
+}
