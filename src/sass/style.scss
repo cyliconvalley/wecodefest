@@ -2197,10 +2197,15 @@ ul {
 
 .friday-2019, .saturday-2019 {
   .timetable-box {
+    font-size: .6em;
+    &.common {
+      font-size: .8em;
+    }
     a {
       font-family: $title-font;
       font-weight: bold;
       font-size: 90%;
+      box-shadow: inset 0 -1px 0 $pink;
     }
   }
 }
