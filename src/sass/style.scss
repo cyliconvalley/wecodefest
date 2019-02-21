@@ -2247,7 +2247,7 @@ ul {
 
 .friday-2019, .saturday-2019 {
   .timetable-box {
-    font-size: .6em;
+    font-size: .8em;
     &.common {
       font-size: .8em;
     }
@@ -2257,5 +2257,8 @@ ul {
       font-size: 90%;
       box-shadow: inset 0 -1px 0 $pink;
     }
+      @media(max-width: 700px) {
+          font-size: .6em;
+      }
   }
 }
