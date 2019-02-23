@@ -2212,6 +2212,14 @@ ul {
             height: 300px;
         }
     }
+    .xx {
+        height: $max-grid;
+        grid-column: 3;
+        grid-row: 11 / 13;
+        @media(max-width: 1000px) {
+            height: 300px;
+        }
+    }
     .y {
         grid-column: 3;
         grid-row: 11;
