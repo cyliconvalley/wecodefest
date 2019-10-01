@@ -6,7 +6,7 @@ $code-font: 'Courier New', Courier, monospace;
 
 // COLORS
 $pink: #EF4470;
-$violet: #363643;
+$dark-blue: #363643;
 $cream: #fcfcfc;
 $almost-white: #f8f8ff;
 $white: #fff;
@@ -25,12 +25,12 @@ $lightgray: #d8d8d8;
 
 ::-moz-selection {
   color: $white;
-  background: $violet;
+  background: $dark-blue;
 }
 
 ::selection {
   color: $white;
-  background: $violet;
+  background: $dark-blue;
 }
 
 body {
@@ -82,7 +82,7 @@ h2 {
     -webkit-animation: blink-animation 1s steps(5, start) infinite;
     animation: blink-animation 1s steps(5, start) infinite;
 
-    border-bottom: 5px solid $violet
+    border-bottom: 5px solid $dark-blue
   }
 }
 
@@ -121,10 +121,6 @@ p {
   margin-bottom: 20px;
 }
 
-.no-hyp {
-  hyphens: none;
-}
-
 img {
   max-width: 100%;
 }
@@ -145,7 +141,7 @@ header {
 
   &.affix {
     opacity: 1;
-    background-color: $violet;
+    background-color: $dark-blue;
   }
 
   .logo {
@@ -247,7 +243,7 @@ header {
     transform-origin: 4px 0;
 
     border-radius: 3px;
-    background: $violet;
+    background: $dark-blue;
   }
 
   #menuToggle span:first-child {
@@ -266,7 +262,7 @@ header {
     transform: rotate(45deg) translate(-2px, -1px);
 
     opacity: 1;
-    background: $violet;
+    background: $dark-blue;
   }
 
   /*
@@ -306,7 +302,7 @@ header {
     /* to stop flickering of text in safari */
     transform-origin: 0 0;
 
-    background-color: $violet;
+    background-color: $dark-blue;
 
     -webkit-font-smoothing: antialiased;
   }
@@ -344,17 +340,13 @@ header {
     max-height: 380px;
     margin-bottom: 30px;
 
-    background: $violet;
+    background: $dark-blue;
   }
 }
 
 #landing .container {
   // transform: skewY(4deg);
   // transform-origin: bottom left;
-}
-
-#party-decoration {
-  margin: 50px 0 50px 0;
 }
 
 .withback {
@@ -382,60 +374,10 @@ header {
   display: inline-block;
 }
 
-.title-swirl {
-  margin: 0 20px 0 20px;
-
-  vertical-align: baseline;
-}
-
 .subtitle {
   font-size: 1.3em;
   font-weight: 300;
   line-height: 40px;
-}
-
-hr.sep {
-  color: #fff;
-  background-color: #fff;
-  height: 1px;
-  margin: 0;
-  padding: 0;
-}
-
-.map-bash {
-  display: none;
-}
-
-.info-title {
-  font-family: $title-font;
-  font-size: 1.4em;
-  border-bottom: 2px solid $violet;
-  display: inline-block;
-
-  margin-bottom: 30px;
-
-  color: $violet;
-}
-
-.skewed-background {
-  position: relative;
-  z-index: 100;
-
-  margin-top: -50px;
-
-  img {
-    max-width: 850px;
-    @media(max-width: 880px) {
-      max-width: 90%;
-    }
-  }
-
-  @media(max-width: 880px) {
-    margin-top: -100px;
-  }
-  @media(max-width: 650px) {
-    margin-top: -40px;
-  }
 }
 
 #info {
@@ -448,7 +390,7 @@ hr.sep {
   font-weight: 700;
   line-height: 40px;
 
-  color: $violet;
+  color: $dark-blue;
   @media(max-width: 600px) {
     font-size: 1.8em;
   }
@@ -461,7 +403,7 @@ hr.sep {
 
   margin: 20px 0 20px 0;
 
-  color: $violet;
+  color: $dark-blue;
 }
 
 .low-spacing {
@@ -483,7 +425,7 @@ ul {
 
   padding: 5px;
 
-  background-color: $violet;
+  background-color: $dark-blue;
 
   a {
     color: $white;
@@ -555,7 +497,7 @@ ul {
   padding-bottom: 20px;
 
   color: $white;
-  background-color: $violet;
+  background-color: $dark-blue;
 
   .call-to-subscribe {
     line-height: 26px;
@@ -596,7 +538,7 @@ ul {
   font-size: 1.3em;
   font-weight: 700;
 
-  color: $violet;
+  color: $dark-blue;
 }
 
 .homepage-hero-module {
@@ -656,7 +598,7 @@ ul {
   height: 100%;
 
   //opacity: .6;
-  background-color: $violet;
+  background-color: $dark-blue;
 }
 
 .video-container video {
@@ -694,7 +636,7 @@ ul {
     margin-top: 30px;
     margin-bottom: 30px;
 
-    color: $violet;
+    color: $dark-blue;
   }
 
   .bio {
@@ -718,15 +660,15 @@ ul {
       border-radius: 20px;
 
       &.charla {
-        background-color: $violet;
+        background-color: $dark-blue;
       }
 
       &.taller {
-        background-color: $violet;
+        background-color: $dark-blue;
       }
 
       &.kata {
-        background-color: $violet
+        background-color: $dark-blue
       }
     }
   }
@@ -773,19 +715,11 @@ ul {
       margin: auto;
     }
   }
-  .skewed-background {
-    //margin-top: -50px;
-  }
 }
 
 @media (max-width: 768px) {
   .title {
     font-size: 60px;
-  }
-  .title-swirl {
-    display: block;
-
-    margin: auto;
   }
   .video-container {
     max-height: 100%;
@@ -804,10 +738,6 @@ ul {
     }
 
     .withback {
-      display: none;
-    }
-
-    .title-swirl {
       display: none;
     }
 
@@ -840,13 +770,6 @@ ul {
   }
 }
 
-.party {
-  text-decoration: none !important;
-
-  border-bottom: none;
-  box-shadow: none;
-}
-
 .avatar {
   max-width: 160px;
   border-radius: 50%;
@@ -861,21 +784,6 @@ ul {
 #who {
   img {
     display: inline-block;
-  }
-}
-
-#party {
-  padding-bottom: 30px;
-
-  background-color: $almost-white;
-
-  .patro {
-    padding: 25px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-
-    border: 4px solid $violet;
-    background-color: $white;
   }
 }
 
@@ -963,7 +871,7 @@ ul {
     margin-top: 30px;
     margin-bottom: 20px;
 
-    color: $violet;
+    color: $dark-blue;
   }
 
   h4 {
@@ -973,22 +881,22 @@ ul {
     margin-bottom: 10px;
     padding-bottom: 20px;
 
-    color: $violet;
-    border-bottom: 1px solid $violet;
+    color: $dark-blue;
+    border-bottom: 1px solid $dark-blue;
 
     &.charla {
-      color: $violet;
-      border-color: $violet;
+      color: $dark-blue;
+      border-color: $dark-blue;
     }
 
     &.taller {
-      color: $violet;
-      border-color: $violet;
+      color: $dark-blue;
+      border-color: $dark-blue;
     }
 
     &.kata {
-      color: $violet;
-      border-color: $violet;
+      color: $dark-blue;
+      border-color: $dark-blue;
     }
   }
 
@@ -1029,15 +937,15 @@ ul {
       border-radius: 20px;
 
       &.charla {
-        background-color: $violet;
+        background-color: $dark-blue;
       }
 
       &.taller {
-        background-color: $violet;
+        background-color: $dark-blue;
       }
 
       &.kata {
-        background-color: $violet
+        background-color: $dark-blue
       }
     }
   }
