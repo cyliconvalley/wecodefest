@@ -243,7 +243,7 @@ header {
     transform-origin: 4px 0;
 
     border-radius: 3px;
-    background: $dark-blue;
+    background: $pink;
   }
 
   #menuToggle span:first-child {
@@ -262,7 +262,7 @@ header {
     transform: rotate(45deg) translate(-2px, -1px);
 
     opacity: 1;
-    background: $dark-blue;
+    background: $pink;
   }
 
   /*
@@ -357,8 +357,8 @@ header {
   background-position: center;
 }
 
-.logo {
-  /*white-space: nowrap;*/
+.logo img {
+  width: 80%;
 }
 
 .title,
@@ -734,7 +734,7 @@ ul {
     padding-bottom: 0;
 
     .logo {
-      margin-top: 30px;
+      margin-top: 80px;
     }
 
     .withback {
