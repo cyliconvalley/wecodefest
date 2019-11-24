@@ -7,10 +7,6 @@ const autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('sass', function () {
 	return gulp.src('./src/sass/style.scss')
-	.pipe(autoprefixer({
-		browsers: ['last 2 versions'],
-		cascade: false
-	}))
 	.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
 	.pipe(gulp.dest('./'));
 });
