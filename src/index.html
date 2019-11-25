@@ -226,6 +226,41 @@
         </div>
 
     </section>
+
+    <section id="tickets">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-xs-12 col-sm-offset-2 text-center">
+                    <h2 class="info-subtitle">Entradas</h2>
+                    <div class="venue-icon">
+                        <img src="img/Icon-Ticket.svg" class="venue" alt="Entradas" width="160px;">
+                    </div>
+                    <div class="low-spacing">
+                        <p class="dirty"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="eventbrite-widget-container-78137189437"></div>
+
+                <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+                <script type="text/javascript">
+                    var exampleCallback = function() {
+                        console.log('Order complete!');
+                    };
+                    window.EBWidgets.createWidget({
+                        // Required
+                        widgetType: 'checkout',
+                        eventId: '78137189437',
+                        iframeContainerId: 'eventbrite-widget-container-78137189437',
+                        // Optional
+                        iframeContainerHeight: 425, // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                        // onOrderComplete: exampleCallback // Method called when an order has successfully completed
+                    });
+                </script>
+            </div>
+        </div>
+    </section>
     <section class="newsletter">
         <div class="container">
             <div class="row">
