@@ -1,8 +1,8 @@
 'use strict';
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var htmlmin = require('gulp-htmlmin');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const htmlmin = require('gulp-htmlmin');
 const autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('sass', function () {
