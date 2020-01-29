@@ -1012,18 +1012,28 @@ div.timetable-date{
         margin-bottom: 0;
         font-size: 16px;
 
+        a{
+          box-shadow: none;
+          border-bottom: none;
+          color: $dark-blue;
+
+          &:hover{
+            color:white;
+          }
+        }
+
         &.workshop{
           border-left: 4px solid  $workshop-color;
+          }
+
+          .who{
+            margin-top: 8px;
           }
 
         p{
           margin: 0px;
           font-size: 16px;
-
-          .who{
-            margin-top: 8px;
-            color: red;
-          }
+          
         }
       }
  }
@@ -1127,11 +1137,19 @@ p.who{
       width: 170px;
       margin:  10px  14px 0 0 ;
     }
-    p.activity-title{
+    p.activity-title,  a.activity-title{
       margin: 0;
       line-height: 22px;
       font-weight: 400;
       line-height: 1;
+      color: $dark-blue;
+      border-bottom: none;
+      box-shadow: none;
+
+    }
+
+    a.activity-title:hover{
+      color:white;
     }
   
     
