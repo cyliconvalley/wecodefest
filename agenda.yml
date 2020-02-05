@@ -11,7 +11,7 @@ conference:
         - code: Salón de Grados
           sessions:
             - title: Presentación
-              description:  Presentación
+              description:  Presentación de la conferencia
               from: 10:00
               to: 10:30
               url: https://wecodefest.com/#timetable
