@@ -1,0 +1,410 @@
+conference:
+  name: WecodeFest
+  ini: 2020-02-07
+  end: 2020-02-08
+  url: http://wecodefest.com
+  latitude: 41.662717
+  longitude: -4.705367
+  days:
+    - day: 0
+      tracks:
+        - code: Salón de Grados
+          sessions:
+            - title: Presentación
+              description:  Presentación
+              from: 10:00
+              to: 10:30
+              url: https://wecodefest.com/#timetable
+
+            - title: Construyendo Cultura de Datos
+              description: Charla de Javier Serrano y Rodrigo Quintana 
+              from: 12:00
+              to: 13:00
+              url: https://wecodefest.com/#data-culture
+
+            - title: OpenSpace01
+              description:
+              from: 13:00
+              to: 14:00
+              url: https://wecodefest.com/#timetable
+
+            - title: Live Coding
+              description: Improkata con Jorge Barroso
+              from: 15:00
+              to: 15:30
+              url: https://wecodefest.com/#jb-improcata
+
+            - title: OpenSpace06
+              description:
+              from: 15:30
+              to: 16:30
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace07
+              description:
+              from: 16:30
+              to: 17:30
+              url: https://wecodefest.com/#timetable
+
+            - title: Procesando video en streaming para monitorización continua
+              description: Charla de Elizabeth González
+              from: 18:00
+              to: 19:00
+              url: https://wecodefest.com/#eg-streaming
+
+            - title: PowerPoint Karaoke y comunicación efectiva.
+              description: Taller y diversión con Carlos Rueda
+              from: 19:00
+              to: 20:00
+              url: https://wecodefest.com/#timetable
+              
+
+        - code: Hedy Lamarr
+          sessions:
+            - title: Preparación de Open Space
+              description: Café y presentación de propuestas de Open Space
+              from: 10:30
+              to: 12:00
+              url: https://wecodefest.com/#timetable
+
+            - title: The Java microservices tutorial with Quarkus
+              description: Taller de Alex Soto
+              from: 12:00
+              to: 14:00
+              url: https://wecodefest.com/#as-quarkus
+
+            - title: Apache Beam: procesando datos como churros
+              description: Taller de Julián Sierra y Jose Manuel Navarro
+              from: 15:30
+              to: 17:30
+              url: https://wecodefest.com/#j-beam
+
+            - title: Construye tu API REST con .NET Core 3.0
+              description: Taller de Luis Ruiz Pavón
+              from: 18:00
+              to: 20:00
+              url: https://wecodefest.com/#lr-apirest
+
+            - title: Retrospectiva
+              description: Cierre del primer día
+              from: 20:00
+              to: 20:30
+              url: https://wecodefest.com/#timetable
+
+        - code: Aula 104
+          sessions:
+            - title: OpenSpace02
+              description:
+              from: 12:00
+              to: 13:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace03
+              description:
+              from: 13:00
+              to: 14:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace08
+              description:
+              from: 15:30
+              to: 16:30
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace09
+              description:
+              from: 16:30
+              to: 17:30
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace12
+              description:
+              from: 18:00
+              to: 19:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace13
+              description:
+              from: 19:00
+              to: 20:00
+              url: https://wecodefest.com/#timetable
+
+        - code: Aula 101
+          sessions:
+            - title: Katas en Python
+              description: Taller de Irene Pérez encinar
+              from: 12:00
+              to: 14:00
+              url: https://wecodefest.com/#ip-katas
+
+            - title: OpenSpace10
+              description:
+              from: 15:30
+              to: 16:30
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace11
+              description:
+              from: 16:30
+              to: 17:30
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace14
+              description:
+              from: 18:00
+              to: 19:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace15
+              description:
+              from: 19:00
+              to: 20:00
+              url: https://wecodefest.com/#timetable
+
+        - code: Aula 102
+          sessions:
+            - title: OpenSpace04
+              description:
+              from: 12:00
+              to: 13:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace05
+              description:
+              from: 13:00
+              to: 14:00
+              url: https://wecodefest.com/#timetable
+
+            - title: ¿Mamarracha con filtro o genialidad? Realidad aumentada facial
+              description: Taller de Cynthia Gálvez López
+              from: 15:30
+              to: 17:30
+              url: https://wecodefest.com/#cg-vr-facial
+
+            - title: OpenSpace16
+              description:
+              from: 18:00
+              to: 19:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace17
+              description:
+              from: 19:00
+              to: 20:00
+              url: https://wecodefest.com/#timetable
+
+    - day: 1
+      tracks:
+        - code: Salón de Grados
+          sessions:
+            - title: Kahoot
+              description: Concurso con premios
+              from: 09:30
+              to: 10:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace01
+              description: 
+              from: 11:00
+              to: 12:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace02
+              description: 
+              from: 12:00
+              to: 13:00
+              url: https://wecodefest.com/#timetable
+
+            - title: Elige tu propia aventura, Nuestra primera tarea en ACME SL como Productivity Raptors
+              description: Charla de Javier Ferrer y Rafa Gómez
+              from: 13:00
+              to: 14:00
+              url: https://wecodefest.com/#codelytv
+
+            - title: Live Coding
+              description: Tor Metrics con Firebase, por Ulises Gascón
+              from: 15:00
+              to: 15:30
+              url: https://wecodefest.com/#ug-firebase
+
+            - title: OpenSpace11
+              description:
+              from: 15:30
+              to: 16:30
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace12
+              description:
+              from: 16:30
+              to: 17:30
+              url: https://wecodefest.com/#timetable
+
+            - title: Implementar APIs asíncronas con mule esb
+              description: Charla por Jorge Lebrato
+              from: 18:00
+              to: 19:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace17
+              description:
+              from: 19:00
+              to: 20:00
+              url: https://wecodefest.com/#timetable
+
+            - title: Cierre
+              description:
+              from: 20:00
+              to: 20:30
+              url: https://wecodefest.com/#timetable              
+
+        - code: Hedy Lamarr
+          sessions:
+            - title: Preparación de Open Space
+              description: Café y presentación de propuestas de Open Space
+              from: 10:00
+              to: 11:00
+              url: https://wecodefest.com/#timetable
+
+            - title: Iniciación a la nube con AWS
+              description: Taller de Jimena Escobar
+              from: 11:00
+              to: 13:00
+              url: https://wecodefest.com/#je-aws
+
+            - title: OpenSpace03
+              description: 
+              from: 13:00
+              to: 14:00
+              url: https://wecodefest.com/#timetable
+
+            - title: ElasticSearch geospatial capabilities
+              description: Taller de Jorge Sanz
+              from: 15:30
+              to: 17:30
+              url: https://wecodefest.com/#js-elasticsearch
+
+            - title: Test end to end con Kotlin y Spring
+              description: Taller de Jorge Barroso
+              from: 18:00
+              to: 20:00
+              url: https://wecodefest.com/#jb-kotlin
+
+        - code: Aula 104
+          sessions:
+            - title: OpenSpace04
+              description:
+              from: 11:00
+              to: 12:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace05
+              description:
+              from: 12:00
+              to: 13:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace06
+              description:
+              from: 13:00
+              to: 14:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace14
+              description:
+              from: 15:30
+              to: 16:30
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace15
+              description:
+              from: 16:30
+              to: 17:30
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace18
+              description:
+              from: 18:00
+              to: 19:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace19
+              description:
+              from: 19:00
+              to: 20:00
+              url: https://wecodefest.com/#timetable
+
+        - code: Aula 101
+          sessions:
+            - title: ¿Sueñan los developers con entidades y tablas?
+              description: Taller de Elena Guzmán
+              from: 11:00
+              to: 13:00
+              url: https://wecodefest.com/#eg-entity
+
+            - title: OpenSpace07
+              description:
+              from: 13:00
+              to: 14:00
+              url: https://wecodefest.com/#timetable
+
+            - title: Ciber analista por un día (ciber análisis)
+              description: Taller de Marta López Pardal
+              from: 15:30
+              to: 17:30
+              url: https://wecodefest.com/#ml-ciberanalista
+
+            - title: OpenSpace20
+              description:
+              from: 18:00
+              to: 19:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace21
+              description:
+              from: 19:00
+              to: 20:00
+              url: https://wecodefest.com/#timetable
+
+        - code: Aula 102
+          sessions:
+            - title: OpenSpace08
+              description:
+              from: 11:00
+              to: 12:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace09
+              description:
+              from: 12:00
+              to: 13:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace10
+              description:
+              from: 13:00
+              to: 14:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace15
+              description:
+              from: 15:30
+              to: 16:30
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace16
+              description:
+              from: 16:30
+              to: 17:30
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace22
+              description:
+              from: 18:00
+              to: 19:00
+              url: https://wecodefest.com/#timetable
+
+            - title: OpenSpace23
+              description:
+              from: 19:00
+              to: 20:00
+              url: https://wecodefest.com/#timetable
