@@ -199,7 +199,7 @@ conference:
           sessions:
             - title: Kahoot
               description: Concurso con premios
-              from: 09:30
+              from: 9:30
               to: 10:00
               url: https://wecodefest.com/#timetable
 
