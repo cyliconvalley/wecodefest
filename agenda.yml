@@ -73,7 +73,7 @@ conference:
               to: 14:00
               url: https://wecodefest.com/#as-quarkus
 
-            - title: Apache Beam: procesando datos como churros
+            - title: Apache Beam, procesando datos como churros
               description: Taller de Julián Sierra y Jose Manuel Navarro
               from: 15:30
               to: 17:30
