@@ -161,7 +161,7 @@ conference:
               to: 20:00
               url: https://wecodefest.com/#timetable
 
-        - code: Aula 102
+        - code: Aula 102A
           sessions:
             - title: OpenSpace04
               description:
