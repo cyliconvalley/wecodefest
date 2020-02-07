@@ -23,7 +23,7 @@ conference:
               url: https://wecodefest.com/#data-culture
 
             - title: El Mastodonte en la Habitación
-              description: Redes Sociales Federadas con @sirikon
+              description: Redes Sociales Federadas con sirikon
               from: 13:00
               to: 14:00
               url: https://wecodefest.com/#timetable
@@ -100,19 +100,19 @@ conference:
               url: https://wecodefest.com/#timetable
 
             - title: Teletrabajo y conciliación sin morir en el intento
-              description: @icynthia
+              description: icynthia
               from: 13:00
               to: 14:00
               url: https://wecodefest.com/#timetable
 
             - title: Luchar contra el sindrome del impostor
-              description: @guillermo_ig
+              description: guillermo_ig
               from: 15:30
               to: 16:30
               url: https://wecodefest.com/#timetable
 
             - title: Acercando diseño a desarrollo
-              description: @rubnvp
+              description: rubnvp
               from: 16:30
               to: 17:30
               url: https://wecodefest.com/#timetable
@@ -144,7 +144,7 @@ conference:
               url: https://wecodefest.com/#timetable
 
             - title: Espacio de trabajo seguro
-              description: @jimena_y_yo
+              description: jimena_y_yo
               from: 16:30
               to: 17:30
               url: https://wecodefest.com/#timetable
@@ -164,13 +164,13 @@ conference:
         - code: Aula 102A
           sessions:
             - title: Experiencias con Monorepo
-              description: @jerolba
+              description: jerolba
               from: 12:00
               to: 13:00
               url: https://wecodefest.com/#timetable
 
             - title: Functional Programming, una nueva vieja moda
-              description: @jmnavarro
+              description: jmnavarro
               from: 13:00
               to: 14:00
               url: https://wecodefest.com/#timetable
