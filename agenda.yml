@@ -93,7 +93,7 @@ conference:
 
         - code: Aula 104
           sessions:
-            - title: Eventsourcing & CQRS
+            - title: Eventsourcing and CQRS
               description:
               from: 12:00
               to: 13:00
@@ -169,19 +169,19 @@ conference:
               to: 13:00
               url: https://wecodefest.com/#timetable
 
-            - title: Functional Programming, una nueva vieja moda?
+            - title: Functional Programming, una nueva vieja moda
               description: @jmnavarro
               from: 13:00
               to: 14:00
               url: https://wecodefest.com/#timetable
 
-            - title: ¿Mamarracha con filtro o genialidad? Realidad aumentada facial
+            - title: Mamarracha con filtro o genialidad. Realidad aumentada facial
               description: Taller de Cynthia Gálvez López
               from: 15:30
               to: 17:30
               url: https://wecodefest.com/#cg-vr-facial
 
-            - title: Logica de datos en la base de datos o en la aplicacion?
+            - title: Logica de datos en la base de datos o en la aplicacion.
               description:
               from: 18:00
               to: 19:00
