@@ -22,8 +22,8 @@ conference:
               to: 13:00
               url: https://wecodefest.com/#data-culture
 
-            - title: OpenSpace01
-              description:
+            - title: El Mastodonte en la Habitación
+              description: Redes Sociales Federadas con @sirikon
               from: 13:00
               to: 14:00
               url: https://wecodefest.com/#timetable
@@ -34,14 +34,14 @@ conference:
               to: 15:30
               url: https://wecodefest.com/#jb-improcata
 
-            - title: OpenSpace06
-              description:
+            - title: Equipos distribuidos. Remote
+              description: Herramientas y Prácticas con Pablo Vicente
               from: 15:30
               to: 16:30
               url: https://wecodefest.com/#timetable
 
-            - title: OpenSpace07
-              description:
+            - title: Contract Testing
+              description: Real o Fake con Aritz
               from: 16:30
               to: 17:30
               url: https://wecodefest.com/#timetable
@@ -93,37 +93,37 @@ conference:
 
         - code: Aula 104
           sessions:
-            - title: OpenSpace02
+            - title: Eventsourcing & CQRS
               description:
               from: 12:00
               to: 13:00
               url: https://wecodefest.com/#timetable
 
-            - title: OpenSpace03
-              description:
+            - title: Teletrabajo y conciliación sin morir en el intento
+              description: @icynthia
               from: 13:00
               to: 14:00
               url: https://wecodefest.com/#timetable
 
-            - title: OpenSpace08
-              description:
+            - title: Luchar contra el sindrome del impostor
+              description: @guillermoig
               from: 15:30
               to: 16:30
               url: https://wecodefest.com/#timetable
 
-            - title: OpenSpace09
-              description:
+            - title: Acercando diseño a desarrollo
+              description: @rubnvp
               from: 16:30
               to: 17:30
               url: https://wecodefest.com/#timetable
 
-            - title: OpenSpace12
+            - title: Isolated vs Integrated testing
               description:
               from: 18:00
               to: 19:00
               url: https://wecodefest.com/#timetable
 
-            - title: OpenSpace13
+            - title: Object oriented and Functiona..big win?
               description:
               from: 19:00
               to: 20:00
@@ -137,40 +137,40 @@ conference:
               to: 14:00
               url: https://wecodefest.com/#ip-katas
 
-            - title: OpenSpace10
-              description:
+            - title: Formando el equipo Fullstack definitivo
+              description: Mario Sanchez y Alex Casajuana
               from: 15:30
               to: 16:30
               url: https://wecodefest.com/#timetable
 
-            - title: OpenSpace11
-              description:
+            - title: Espacio de trabajo seguro
+              description: @jimena_y_yo
               from: 16:30
               to: 17:30
               url: https://wecodefest.com/#timetable
 
-            - title: OpenSpace14
-              description:
+            - title: Open Source en 2020
+              description: Ulises Gascon
               from: 18:00
               to: 19:00
               url: https://wecodefest.com/#timetable
 
-            - title: OpenSpace15
-              description:
+            - title: Serverless, las partes malas
+              description: Javier Torres
               from: 19:00
               to: 20:00
               url: https://wecodefest.com/#timetable
 
         - code: Aula 102A
           sessions:
-            - title: OpenSpace04
-              description:
+            - title: Experiencias con Monorepo
+              description: @jerolba
               from: 12:00
               to: 13:00
               url: https://wecodefest.com/#timetable
 
-            - title: OpenSpace05
-              description:
+            - title: Functional Programming, una nueva vieja moda?
+              description: @jmnavarro
               from: 13:00
               to: 14:00
               url: https://wecodefest.com/#timetable
@@ -181,14 +181,14 @@ conference:
               to: 17:30
               url: https://wecodefest.com/#cg-vr-facial
 
-            - title: OpenSpace16
+            - title: Logica de datos en la base de datos o en la aplicacion?
               description:
               from: 18:00
               to: 19:00
               url: https://wecodefest.com/#timetable
 
-            - title: OpenSpace17
-              description:
+            - title: Test Commit Reset
+              description: Abel Rincon
               from: 19:00
               to: 20:00
               url: https://wecodefest.com/#timetable
