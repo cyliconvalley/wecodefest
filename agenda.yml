@@ -352,13 +352,13 @@ conference:
             - title: Educacion - HourOfCode
               description: Javi Mostoles
               from: 12:25
-              to: 13:00
+              to: 13:25
               url: https://wecodefest.com/#timetable
 
             - title: Validando sin Bloatcode
               description: Sanmibuh
               from: 13:25
-              to: 14:00
+              to: 14:25
               url: https://wecodefest.com/#timetable
 
             - title: Otra concurrencia
