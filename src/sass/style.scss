@@ -1142,6 +1142,10 @@ p.who{
     div.item{
       width: 170px;
       margin:  10px  14px 0 0 ;
+
+      &.ghost{
+        opacity: 0;
+      }
     }
     p.activity-title,  a.activity-title{
       margin: 0;
