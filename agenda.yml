@@ -345,20 +345,20 @@ conference:
           sessions:
             - title: Server Critic. La güé no va.
               description: Carlos y Luis
-              from: 11:00
-              to: 12:00
+              from: 11:25
+              to: 12:25
               url: https://wecodefest.com/#timetable
 
             - title: Educacion - HourOfCode
               description: Javi Mostoles
-              from: 12:00
-              to: 13:00
+              from: 12:25
+              to: 13:25
               url: https://wecodefest.com/#timetable
 
             - title: Validando sin Bloatcode
               description: Sanmibuh
-              from: 13:00
-              to: 14:00
+              from: 13:25
+              to: 14:25
               url: https://wecodefest.com/#timetable
 
             - title: Otra concurrencia
@@ -383,8 +383,8 @@ conference:
           sessions:
             - title: ¿Sueñan los developers con entidades y tablas?
               description: Taller de Elena Guzmán
-              from: 11:00
-              to: 13:00
+              from: 11:25
+              to: 13:25
               url: https://wecodefest.com/#eg-entity
 
             - title: Ciber analista por un día (ciber análisis)
