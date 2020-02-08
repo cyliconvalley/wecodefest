@@ -64,7 +64,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-a, a.card-link {
+a{
   padding: 2px;
 
   text-decoration: none;
@@ -1014,7 +1014,7 @@ div.timetable-date{
         margin-bottom: 0;
         font-size: 16px;
 
-        a{
+        a.not-link{
           box-shadow: none;
           border-bottom: none;
           color: $dark-blue;
