@@ -64,7 +64,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-a {
+a, a.card-link {
   padding: 2px;
 
   text-decoration: none;
@@ -1237,4 +1237,5 @@ button.tablinks{
 #day1.tabcontent{
   display: none;
 }
+
 
