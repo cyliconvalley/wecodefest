@@ -205,14 +205,14 @@ conference:
 
             - title: Elige tu propia aventura, Nuestra primera tarea en ACME SL como Productivity Raptors
               description: Charla de Javier Ferrer y Rafa Gómez
-              from: 13:00
-              to: 14:00
+              from: 13:25
+              to: 14:25
               url: https://wecodefest.com/#codelytv
 
             - title: Live Coding
               description: Tor Metrics con Firebase, por Ulises Gascón
-              from: 15:00
-              to: 15:30
+              from: 15:15
+              to: 15:45
               url: https://wecodefest.com/#ug-firebase
 
             - title: Implementar APIs asíncronas con mule esb
@@ -237,14 +237,14 @@ conference:
 
             - title: Iniciación a la nube con AWS
               description: Taller de Jimena Escobar
-              from: 11:00
-              to: 13:00
+              from: 11:25
+              to: 13:25
               url: https://wecodefest.com/#je-aws
 
             - title: ElasticSearch geospatial capabilities
               description: Taller de Jorge Sanz
-              from: 15:30
-              to: 17:30
+              from: 15:45
+              to: 17:45
               url: https://wecodefest.com/#js-elasticsearch
 
             - title: Test end to end con Kotlin y Spring
@@ -257,32 +257,32 @@ conference:
           sessions:
             - title: Hardware libre. IoT
               description: Dani Rey
-              from: 11:00
-              to: 12:00
+              from: 11:25
+              to: 12:25
               url: https://wecodefest.com/#timetable
 
             - title: Impresion 3D en 2020
               description: Eduardoelh
-              from: 12:00
-              to: 13:00
+              from: 12:25
+              to: 13:25
               url: https://wecodefest.com/#timetable
 
             - title: Vacaciones en la costa del SOC
               description: Marta Lopez Pardal
-              from: 13:00
-              to: 14:00
+              from: 13:25
+              to: 14:25
               url: https://wecodefest.com/#timetable
 
             - title: Offline. Desconectando. Derechos laborales. Divesidad y tecnologia
               description: Roberto Luis Bisbe, Ines, Maria e Iñaki Quesada
-              from: 15:30
-              to: 16:30
+              from: 15:45
+              to: 16:45
               url: https://wecodefest.com/#timetable
 
             - title: Comunidades de provincias
               description: SegutechTrain
-              from: 16:30
-              to: 17:30
+              from: 16:45
+              to: 17:45
               url: https://wecodefest.com/#timetable
 
             - title: Apache Cassandra, qué es y para qué sirve?
@@ -301,32 +301,32 @@ conference:
           sessions:
             - title: BFF, Front tocando backend
               description: Ruben Mendez
-              from: 11:00
-              to: 12:00
+              from: 11:25
+              to: 12:25
               url: https://wecodefest.com/#timetable
 
             - title: Test in the Shell
               description: Flipper83
-              from: 12:00
-              to: 13:00
+              from: 12:25
+              to: 13:25
               url: https://wecodefest.com/#timetable
 
             - title: Tu navegador esta roto (criticism of the web)
               description: tripu
-              from: 13:00
-              to: 14:00
+              from: 13:25
+              to: 14:25
               url: https://wecodefest.com/#timetable
 
             - title: Habilitando una arquitectura funcional en JS
               description: trikitrok
-              from: 15:30
-              to: 16:30
+              from: 15:45
+              to: 16:45
               url: https://wecodefest.com/#timetable
 
             - title: Charla taller OpenCV. Vision computacional
               description: Andres Escobar Cotan
-              from: 16:30
-              to: 17:30
+              from: 16:45
+              to: 17:45
               url: https://wecodefest.com/#timetable
 
             - title: Por que en desarrollo no tenemos un juramento hipocratico? Hablemos de Etica
@@ -363,14 +363,14 @@ conference:
 
             - title: Otra concurrencia
               description: gortizja
-              from: 15:30
-              to: 16:30
+              from: 15:45
+              to: 16:45
               url: https://wecodefest.com/#timetable
 
             - title: Testing CI/CD Pipeline scripts
               description: Felix
-              from: 16:30
-              to: 17:30
+              from: 16:45
+              to: 17:45
               url: https://wecodefest.com/#timetable
 
             - title: New Job. Master si, master no
@@ -389,8 +389,8 @@ conference:
 
             - title: Ciber analista por un día (ciber análisis)
               description: Taller de Marta López Pardal
-              from: 15:30
-              to: 17:30
+              from: 15:45
+              to: 17:45
               url: https://wecodefest.com/#ml-ciberanalista
 
             - title: Postgres Explain
