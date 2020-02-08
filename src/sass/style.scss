@@ -25,6 +25,8 @@ $room04-background:rgba(71, 65, 208, 0.30);//Salón de actos
 $room04-border:#4741D0;
 $room05-background:rgba(239, 68, 112, 0.09);//Hedy Lamarr
 $room05-border: $pink;
+$room06-background:rgba(218, 145, 40, 0.47);//Hedy Lamarr
+$room06-border: #DA9128;
 
 
 .image-cta {
@@ -1069,6 +1071,10 @@ div.timetable-tags{
     &.room05{
       background-color: $room05-background  ;
       border: 1px solid $room05-border;
+      }
+    &.room06{
+      background-color: $room06-background  ;
+      border: 1px solid $room06-border;
       }
     &.open-space{
       background-color: $openspace-color;
