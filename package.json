@@ -7,12 +7,14 @@
     "gulp": "^4.0.2",
     "node-sass": "^4.13.1",
     "kind-of": "^6.0.3",
-    "yargs-parser": "^20.2.3"
+    "yargs-parser": "^20.2.3",
+    "postcss": ">=8.2.10"
   },
   "devDependencies": {
     "gulp-autoprefixer": "^7.0.1",
     "gulp-htmlmin": "^5.0.1",
-    "gulp-sass": "^4.1.0"
+    "gulp-sass": "^4.1.0",
+    "postcss": ">=8.2.10"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
